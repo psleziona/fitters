@@ -1,0 +1,16 @@
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Fitters.exe
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Fitters.deps.json
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Fitters.runtimeconfig.json
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Fitters.dll
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Fitters.pdb
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.Form1.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.csproj.GenerateResource.cache
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.AssemblyInfoInputs.cache
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.AssemblyInfo.cs
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.csproj.CoreCompileInputs.cache
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.dll
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\refint\Fitters.dll
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.pdb
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.genruntimeconfig.cache
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\ref\Fitters.dll
