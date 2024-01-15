@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class MealProduct
+    internal enum UserGender
     {
-        protected Product product;
-        public MealProduct(Product product) { this.product = product; }
+        MALE,
+        FEMALE
     }
 }
