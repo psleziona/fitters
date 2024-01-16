@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    abstract internal class Product
+    abstract public class Product
     {
         private string name;
         private double proteins;

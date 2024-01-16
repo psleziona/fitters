@@ -83,6 +83,7 @@
             dataGridViewTextBoxColumn14 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn15 = new DataGridViewTextBoxColumn();
             button6 = new Button();
+            label26 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
@@ -534,10 +535,22 @@
             button6.Text = "Dodaj";
             button6.UseVisualStyleBackColor = true;
             // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label26.Location = new Point(91, 13);
+            label26.Name = "label26";
+            label26.Size = new Size(73, 37);
+            label26.TabIndex = 37;
+            label26.Text = "Data";
+            // 
             // DayView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(672, 820);
+            Controls.Add(label26);
             Controls.Add(button6);
             Controls.Add(dataGridView6);
             Controls.Add(button5);
@@ -576,7 +589,6 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "DayView";
-            Size = new Size(708, 854);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
@@ -644,5 +656,6 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
         private Button button6;
+        private Label label26;
     }
 }

@@ -12,9 +12,18 @@ namespace Fitters
         private int timeSpent;
         private double burnedCalories;
 
-        public void CountBurnedCalories()
-        {
+        public double BurnedCalories { get => burnedCalories; }
 
+        public UserActivity(Activity activity, int timeSpent)
+        {
+            this.activity = activity;
+            this.timeSpent = timeSpent;
+            CountBurnedCalories();
+        }
+
+        private void CountBurnedCalories()
+        {
+            this.burnedCalories = (activity.CaloriesBurnPerHour * timeSpent) / 60;
         }
     }
 }

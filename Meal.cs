@@ -6,13 +6,22 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class Meal : ICalorieCounter
+    public class Meal : ICalorieCounter
     {
         private List<MealProductQuantity> products;
         private double calories;
+
+        public double Calories { get => calories; }
+        public List<MealProductQuantity> Products { get => products; }
         public double CountCalories()
         {
-            throw new NotImplementedException();
+            /*
+            foreach (var product in products)
+            {
+                calories += product.
+            }
+            */
+            return 0.0;
         }
     }
 }

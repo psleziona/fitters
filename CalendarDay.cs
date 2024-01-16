@@ -12,11 +12,23 @@ namespace Fitters
 {
     public partial class CalendarDay : UserControl
     {
-        bool active;
-        public CalendarDay(bool active)
+        private bool active;
+        private Day? day;
+        private DateTime date;
+        public CalendarDay(bool active, DateTime date)
         {
             InitializeComponent();
             this.active = active;
+            this.date = date;
+        }
+
+        public CalendarDay(bool active, Day day, DateTime date)
+        {
+            InitializeComponent();
+            this.active = active;
+            this.day = day;
+            this.date = date;
+            SetDayInformation();
         }
 
         private void CalendarDay_Load(object sender, EventArgs e)
@@ -28,6 +40,20 @@ namespace Fitters
         public void Days(int numDay)
         {
             label1.Text = numDay + "";
+        }
+
+        private void CalendarDay_Click(object sender, EventArgs e)
+        {
+            if (!active) return;
+            DayView dayView = new DayView(date);
+            dayView.Show();
+        }
+
+        private void SetDayInformation()
+        {
+            label7.Text = day.GetEatenMealsNumber().ToString();
+            label6.Text = day.GetEatenCalories().ToString();
+            label5.Text = day.GetBurnedCalories().ToString();
         }
     }
 }

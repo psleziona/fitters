@@ -30,5 +30,10 @@ namespace Fitters
             };
             calendar = new Calendar(days);
         }
+
+        public Day GetUserDay(DateTime date)
+        {
+            return calendar.Days.Where(d => d.Date == date).FirstOrDefault(new Day());
+        }
     }
 }

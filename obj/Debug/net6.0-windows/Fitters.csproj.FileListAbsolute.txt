@@ -39,3 +39,13 @@ C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitte
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\ref\Fitters.dll
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.CalendarDay.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.CalendarDayBlank.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.csproj.AssemblyReference.cache
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.CalendarDay.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.CalendarDayBlank.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.DayView.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.Fitters.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.LoginForm.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.RegisterForm.resources
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.sourcelink.json
+C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.csproj.CopyComplete

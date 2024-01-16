@@ -17,6 +17,8 @@ namespace Fitters
         private User activeUser;
         private int month;
         private int year;
+
+        public User User { get { return activeUser; } }
         public Fitters()
         {
             InitializeComponent();
@@ -66,14 +68,18 @@ namespace Fitters
 
             for (int i = 1; i <= days; i++)
             {
+                CalendarDay day;
                 bool active = new DateTime(year, month, i) <= DateTime.Now;
                 try
                 {
                     Day d = activeUser.Calendar.Days.Where(day => day.Date.Equals(new DateTime(year, month, i))).First();
+                    day = new CalendarDay(active, d, new DateTime(year, month, i));
                 }
-                catch (InvalidOperationException e) { }
+                catch (InvalidOperationException e) 
+                {
+                    day = new CalendarDay(active, new DateTime(year, month, i));
+                }
 
-                CalendarDay day = new CalendarDay(active);
                 day.Days(i);
                 panelCalendar.Controls.Add(day);
             }
