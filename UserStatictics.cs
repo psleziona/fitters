@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class UserStatictics
+    public class UserStatictics
     {
         private int days;
         private double proteinsEaten;

@@ -6,11 +6,24 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class Day
+    public class Day
     {
         private DateTime date;
         private DayMeals meals;
         private List<UserActivity> activities;
         private UserInformation information;
+
+        public DateTime Date { get => date; }
+
+        public Day()
+        {
+            date = DateTime.Now;
+        }
+
+        public Day(UserInformation information)
+        {
+            this.information = information;
+            date = DateTime.Now;
+        }
     }
 }
