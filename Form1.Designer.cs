@@ -28,38 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(330, 268);
-            button1.Name = "button1";
-            button1.Size = new Size(139, 50);
-            button1.TabIndex = 0;
-            button1.Text = "Zaloguj";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(40, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 50);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Zaloguj";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            button2.Location = new Point(512, 268);
-            button2.Name = "button2";
-            button2.Size = new Size(142, 50);
-            button2.TabIndex = 1;
-            button2.Text = "Dodaj użytkownika";
-            button2.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(225, 46);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(142, 50);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Nowy użytkownik";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(982, 592);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Name = "Form1";
-            Text = "Fitters";
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(412, 141);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Name = "Form1";
+            this.Text = "Fitters";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

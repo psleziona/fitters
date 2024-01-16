@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    public enum UserGender
+    public enum ActivityLevel
     {
-        MALE,
-        FEMALE
+        NONE = 12,
+        LOW = 13,
+        MEDIUM = 15,
+        HIGH = 19,
     }
 }

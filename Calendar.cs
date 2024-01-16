@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class Calendar
+    public class Calendar
     {
         private List<Day> days;
+
+        public List<Day> Days { get => days; }
         public Calendar() { }
 
         public Calendar(List<Day> days) { this.days = days; }

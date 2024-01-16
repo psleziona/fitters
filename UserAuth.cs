@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,24 +9,43 @@ namespace Fitters
 {
     internal class UserAuth
     {
-        public static User AuthenticateUser(string login, string password)
+        public static User? AuthenticateUser(string login, string password)
         {
-
+            User? user = FileUtility.ReadUserDateFromFile(login);
+            if(user != null)
+            {
+                if(IsDataValid(password, user.Password))
+                    return user;
+            }
+            return null;
         }
 
-        public static bool AddUser(string login, string password)
+        public static bool AddUser(User user)
         {
-            return false;
+            user.Password = GetEncodedPassword(user.Password);
+            FileUtility.WriteUserDateToFile(user);
+            return true;
         }
 
-        public static bool IsDataValid(string login, string password)
+        private static bool IsDataValid(string password, string savedPassword)
         {
-
+            return string.Equals(GetEncodedPassword(password), savedPassword);
         }
 
-        public static string GetEncodedPassword(string password)
+        private static string GetEncodedPassword(string password)
         {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
 
+                StringBuilder stringBuilder = new StringBuilder();
+                foreach (byte b in hashedBytes)
+                {
+                    stringBuilder.Append(b.ToString("x2"));
+                }
+
+                return stringBuilder.ToString();
+            }
         }
     }
 }
