@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fitters
+namespace Fitters.Models
 {
-    internal class ProductBulk : Product, ICalorieCounter
+    internal class ProductIndividual : Product, ICalorieCounter
     {
-        private int capacity;
-        private ProductUnit unit;
-        public ProductBulk(string name, double proteins, double carbons, double fats) : base(name, proteins, carbons, fats)
+        public ProductIndividual(string name, double proteins, double carbons, double fats) : base(name, proteins, carbons, fats)
         {
+
         }
 
         public double CountCalories()

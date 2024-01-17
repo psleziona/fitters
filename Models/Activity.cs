@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class Activity
+    public class Activity
     {
         private string name;
         private int caloriesBurnPerHour;

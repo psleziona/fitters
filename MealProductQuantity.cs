@@ -15,9 +15,16 @@ namespace Fitters
         public Product Product { get => product; }
         public double Quantity { get => quantity; }
 
+        public MealProductQuantity(Product product, double quantity)
+        {
+            this.product = product;
+            this.quantity = quantity;
+            this.calories = product.Calories * quantity;
+        }
+
         public double CountCalories()
         {
-            return 5.0;
+            return product.Calories;
         }
     }
 }

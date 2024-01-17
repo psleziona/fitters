@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    public class Meal : ICalorieCounter
+    public abstract class Meal : ICalorieCounter
     {
         private List<MealProductQuantity> products;
         private double calories;
 
-        public double Calories { get => calories; }
         public List<MealProductQuantity> Products { get => products; }
-        public double CountCalories()
+
+        public double GetCalories()
         {
-            /*
-            foreach (var product in products)
+            return calories;
+        }
+
+        public void CountCalories()
+        {
+            foreach (MealProductQuantity product in products)
             {
-                calories += product.
+                calories += product.CountCalories();
             }
-            */
-            return 0.0;
         }
     }
 }

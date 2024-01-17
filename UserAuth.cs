@@ -11,7 +11,7 @@ namespace Fitters
     {
         public static User? AuthenticateUser(string login, string password)
         {
-            User? user = FileUtility.ReadUserDateFromFile(login);
+            User? user = FileUtility.ReadDataFromFile<User>("users/" + login);
             if(user != null)
             {
                 if(IsDataValid(password, user.Password))
@@ -23,7 +23,7 @@ namespace Fitters
         public static bool AddUser(User user)
         {
             user.Password = GetEncodedPassword(user.Password);
-            FileUtility.WriteUserDateToFile(user);
+            FileUtility.WriteDateToFile(user, "users/" + user.Login);
             return true;
         }
 

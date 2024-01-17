@@ -49,3 +49,4 @@ C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku W
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.RegisterForm.resources
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.sourcelink.json
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.csproj.CopyComplete
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.AddProductToMeal.resources

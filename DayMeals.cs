@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fitters.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,69 +9,29 @@ namespace Fitters
 {
     public class DayMeals
     {
-        private Meal? breakfast;
-        private Meal? brunch;
-        private Meal? lunch;
-        private Meal? afternoonTea;
-        private Meal? dinner;
-
-        public Meal Breakfast { get => breakfast; }
-        public Meal Brunch {  get => brunch; }
-        public Meal Lunch { get => lunch; }
-        public Meal AfternoonTea { get => afternoonTea; }
-        public Meal Dinner {  get => dinner; }
+        private List<Meal> meals;
+        
+        public DayMeals()
+        {
+            meals = new List<Meal>
+            {
+                new Breakfast(),
+                new Brunch(),
+                new Lunch(),
+                new AfternoonTea(),
+                new Dinner()
+            };
+        }
 
 
         public double GetEatenCalories()
         {
-            double total = 0;
-            if (breakfast != null)
-            {
-                total += breakfast.Calories;
-            }
-            if (brunch != null)
-            {
-                total += brunch.Calories;
-            }
-            if (afternoonTea != null)
-            {
-                total += afternoonTea.Calories;
-            }
-            if (dinner != null)
-            {
-                total += dinner.Calories;
-            }
-            if(lunch != null)
-            {
-                total += lunch.Calories;
-            }
-            return total;
+            return meals.Aggregate(0.0, (total, meal) => total + meal.GetCalories());
         }
 
         public int GetEatenMealsNumber()
         {
-            int total = 0;
-            if (breakfast != null)
-            {
-                total++;
-            }
-            if (brunch != null)
-            {
-                total++;
-            }
-            if (afternoonTea != null)
-            {
-                total++;
-            }
-            if (dinner != null)
-            {
-                total++;
-            }
-            if (lunch != null)
-            {
-                total++;
-            }
-            return total;
+            return meals.Where(meal => meal.GetCalories() > 0).Count();
         }
 
     }

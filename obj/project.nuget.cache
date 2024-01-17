@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x5WCtHeBQWk/ai+tMZ9Xql6+nnGIazpp6GdvjQmdZ1bsZ+sOFu/xvYSTb2+pcVbYuPVGpvCpSo3VQT8x3Cw4Cg==",
+  "dgSpecHash": "edqGQ91buEa65uZEi3eVzbCKvpSXobVfBJ8BRiCzXqTmHwxUFg/pICiLKUiCWFhWyFy75Z13U3q1WVEKU8akVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pawel\\OneDrive\\Dokumenty\\Studia\\Semestr V\\Programowanie w środowisku Windows\\Fitters\\Fitters\\Fitters.csproj",
+  "projectFilePath": "C:\\Users\\Paweł Śleziona\\Desktop\\Nowy folder (5)\\Fitters.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pawel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Paweł Śleziona\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

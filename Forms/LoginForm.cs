@@ -12,8 +12,8 @@ namespace Fitters
 {
     public partial class LoginForm : Form
     {
-        Form1 parent;
-        public LoginForm(Form1 parent)
+        Welcome parent;
+        public LoginForm(Welcome parent)
         {
             InitializeComponent();
             this.parent = parent;

@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fitters
+namespace Fitters.Models
 {
-    internal interface ICalorieCounter
+    internal class Lunch : Meal
     {
-        public void CountCalories();
-        public double GetCalories();
     }
 }

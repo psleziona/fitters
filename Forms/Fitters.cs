@@ -15,6 +15,8 @@ namespace Fitters
     {
         public static Fitters app;
         private User activeUser;
+        public List<Product> products;
+        public List<Activity> activities;
         private int month;
         private int year;
 
@@ -25,6 +27,16 @@ namespace Fitters
             app = this;
             year = DateTime.Now.Year;
             month = DateTime.Now.Month;
+            products = FileUtility.ReadDataFromFile<List<Product>>("products") ?? new List<Product>();
+            activities = FileUtility.ReadDataFromFile<List<Activity>>("activities") ?? new List<Activity>();
+            comboBoxProductUnit.Items.AddRange(new object[] { ProductUnit.MILLILITRE, ProductUnit.GRAM });
+            foreach(var p in products)
+            {
+                dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, "1", p.Calories);
+            }
+
+            foreach (var a in activities)
+                dataGridViewActivities.Rows.Add("d", a.CaloriesBurnPerHour);
         }
 
         public void SetActiveUser(User user)
@@ -40,7 +52,7 @@ namespace Fitters
 
         private void Fitters_Load(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Welcome form1 = new Welcome();
             form1.ShowDialog();
             this.Hide();
 
@@ -120,6 +132,46 @@ namespace Fitters
         {
             comboBoxYears.SelectedItem = year;
             comboBoxMonths.SelectedItem = month;
+        }
+
+        private void buttonAddProductToBase_Click(object sender, EventArgs e)
+        {
+            string name = textBoxProductName.Text;
+            double proteins = double.Parse(textBoxProductProtein.Text);
+            double fats = double.Parse(textBoxProductFat.Text);
+            double carbons = double.Parse(textBoxProductCarbon.Text);
+            bool isCountable = checkBoxIsProductCountable.Checked;
+
+            if(isCountable)
+            {
+                ProductIndividual p = new ProductIndividual(name, proteins, carbons, fats);
+                products.Add(p);
+            } 
+            else
+            {
+                int capacity = int.Parse(textBoxProductAmount.Text);
+                ProductUnit unit = (ProductUnit)comboBoxProductUnit.SelectedItem;
+                ProductBulk p = new ProductBulk(name, proteins, carbons, fats, capacity, unit);
+                products.Add(p);
+            }
+            FileUtility.WriteDateToFile(products, "/products");
+            
+
+        }
+
+        private void checkBoxIsProductCountable_CheckedChanged(object sender, EventArgs e)
+        {
+            textBoxProductAmount.Enabled = !checkBoxIsProductCountable.Checked;
+            comboBoxProductUnit.Enabled = !checkBoxIsProductCountable.Checked;
+        }
+
+        private void buttonAddActivityToBase_Click(object sender, EventArgs e)
+        {
+            string name = textBoxActivityName.Text;
+            int caloriesBurned = int.Parse(textBoxActivityBurnedCalories.Text);
+            Activity activity = new Activity(name, caloriesBurned);
+            activities.Add(activity);
+            FileUtility.WriteDateToFile(activities, "/activities");
         }
     }
 }
