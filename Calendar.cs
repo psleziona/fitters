@@ -10,8 +10,7 @@ namespace Fitters
     {
         private List<Day> days;
 
-        public List<Day> Days { get => days; }
-        public Calendar() { }
+        public List<Day> Days { get => days; set => days = value; }
 
         public Calendar(List<Day> days) { this.days = days; }
 

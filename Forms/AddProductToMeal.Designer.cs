@@ -28,100 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Calories = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.buttonAddProductToMeal = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            label1 = new Label();
+            textBox1 = new TextBox();
+            dataGridView1 = new DataGridView();
+            Name = new DataGridViewTextBoxColumn();
+            Calories = new DataGridViewTextBoxColumn();
+            label2 = new Label();
+            textBox2 = new TextBox();
+            buttonAddProductToMeal = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Szukaj";
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(40, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Szukaj";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 23);
-            this.textBox1.TabIndex = 1;
+            textBox1.Location = new Point(65, 6);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(218, 23);
+            textBox1.TabIndex = 1;
             // 
             // dataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Name,
-            this.Calories});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 35);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(271, 183);
-            this.dataGridView1.TabIndex = 2;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Name, Calories });
+            dataGridView1.Location = new Point(12, 35);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.Size = new Size(271, 183);
+            dataGridView1.TabIndex = 2;
+            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
             // 
             // Name
             // 
-            this.Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Name.HeaderText = "Name";
-            this.Name.Name = "Name";
+            Name.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Name.HeaderText = "Name";
+            Name.Name = "Name";
             // 
             // Calories
             // 
-            this.Calories.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Calories.HeaderText = "Calories";
-            this.Calories.Name = "Calories";
+            Calories.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Calories.HeaderText = "Calories";
+            Calories.Name = "Calories";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(298, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ilość";
+            label2.AutoSize = true;
+            label2.Location = new Point(298, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(31, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Ilość";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(298, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 23);
-            this.textBox2.TabIndex = 4;
+            textBox2.Location = new Point(298, 35);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(135, 23);
+            textBox2.TabIndex = 4;
             // 
             // buttonAddProductToMeal
             // 
-            this.buttonAddProductToMeal.Location = new System.Drawing.Point(298, 173);
-            this.buttonAddProductToMeal.Name = "buttonAddProductToMeal";
-            this.buttonAddProductToMeal.Size = new System.Drawing.Size(135, 45);
-            this.buttonAddProductToMeal.TabIndex = 5;
-            this.buttonAddProductToMeal.Text = "Dodaj";
-            this.buttonAddProductToMeal.UseVisualStyleBackColor = true;
-            this.buttonAddProductToMeal.Click += new System.EventHandler(this.buttonAddProductToMeal_Click);
+            buttonAddProductToMeal.Location = new Point(298, 173);
+            buttonAddProductToMeal.Name = "buttonAddProductToMeal";
+            buttonAddProductToMeal.Size = new Size(135, 45);
+            buttonAddProductToMeal.TabIndex = 5;
+            buttonAddProductToMeal.Text = "Dodaj";
+            buttonAddProductToMeal.UseVisualStyleBackColor = true;
+            buttonAddProductToMeal.Click += buttonAddProductToMeal_Click;
             // 
             // AddProductToMeal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 230);
-            this.Controls.Add(this.buttonAddProductToMeal);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Text = "AddProductToMeal";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(443, 230);
+            Controls.Add(buttonAddProductToMeal);
+            Controls.Add(textBox2);
+            Controls.Add(label2);
+            Controls.Add(dataGridView1);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Text = "AddProductToMeal";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

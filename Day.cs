@@ -15,19 +15,23 @@ namespace Fitters
 
         public DateTime Date { get => date; }
         public DayMeals Meals { get => meals; }
+        public UserInformation Information { get => information; set => information = value;  }
+        public List<UserActivity> Activities {  get => activities; }
 
         public Day()
         {
             date = DateTime.Now;
+            meals = new DayMeals();
+            activities = new List<UserActivity>();
         }
 
         public Day(UserInformation information)
         {
             this.information = information;
-            date = DateTime.Now;
+            date = DateTime.Today;
+            meals = new DayMeals();
+            activities = new List<UserActivity>();
         }
-
-
 
         public int GetEatenMealsNumber()
         {
@@ -42,6 +46,11 @@ namespace Fitters
         public double GetBurnedCalories()
         {
             return activities.Aggregate(0.0, (total, next) => total + next.BurnedCalories);
+        }
+
+        public void AddUserActivity(UserActivity userActivity)
+        {
+            activities.Add(userActivity);
         }
     }
 }

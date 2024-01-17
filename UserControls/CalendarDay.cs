@@ -13,21 +13,14 @@ namespace Fitters
     public partial class CalendarDay : UserControl
     {
         private bool active;
-        private Day? day;
+        private Day day;
         private DateTime date;
         public CalendarDay(bool active, DateTime date)
         {
             InitializeComponent();
             this.active = active;
             this.date = date;
-        }
-
-        public CalendarDay(bool active, Day day, DateTime date)
-        {
-            InitializeComponent();
-            this.active = active;
-            this.day = day;
-            this.date = date;
+            day = Fitters.app.calorieTracker.UserService.GetDayInformation(date);
             SetDayInformation();
         }
 
@@ -37,7 +30,7 @@ namespace Fitters
                 this.BackColor = Color.FromArgb(237, 239, 242);
         }
 
-        public void Days(int numDay)
+        public void SetDayNumber(int numDay)
         {
             label1.Text = numDay + "";
         }

@@ -11,6 +11,7 @@ namespace Fitters
         private string name;
         private int caloriesBurnPerHour;
 
+        public string Name { get => name; }
         public int CaloriesBurnPerHour { get => caloriesBurnPerHour; }
 
         public Activity(string name, int caloriesBurnPerHour)

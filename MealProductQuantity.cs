@@ -20,12 +20,17 @@ namespace Fitters
         {
             this.product = product;
             this.quantity = quantity;
-            this.calories = product.Calories * quantity;
+            this.calories = product.GetCalories() * quantity;
         }
 
-        public double CountCalories()
+        public void CountCalories()
         {
-            return product.Calories;
+            calories = product.GetCalories() * quantity;
+        }
+
+        public double GetCalories()
+        {
+            return calories;
         }
     }
 }

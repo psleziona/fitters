@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fitters.Models
 {
-    internal class Dinner : Meal
+    public class Dinner : Meal
     {
     }
 }

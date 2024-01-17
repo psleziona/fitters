@@ -13,6 +13,11 @@ namespace Fitters
 
         public List<MealProductQuantity> Products { get => products; }
 
+        public Meal() 
+        {
+            products = new List<MealProductQuantity>();
+        }
+
         public double GetCalories()
         {
             return calories;
@@ -22,8 +27,13 @@ namespace Fitters
         {
             foreach (MealProductQuantity product in products)
             {
-                calories += product.CountCalories();
+                calories += product.GetCalories();
             }
+        }
+
+        public void AddProduct(MealProductQuantity product)
+        {
+            products.Add(product);
         }
     }
 }

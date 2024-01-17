@@ -1,1 +1,12 @@
-[{"Name":"sdfsd","Proteins":11.0,"Carbons":22.0,"Fats":23.0,"Calories":339.0}]
+{
+  "$type": "System.Collections.Generic.List`1[[Fitters.Models.Product, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+  "$values": [
+    {
+      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "dsdfsdf",
+      "Proteins": 1.0,
+      "Carbons": 1.0,
+      "Fats": 1.0
+    }
+  ]
+}

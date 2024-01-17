@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Fitters
 {
-    internal class UserActivity
+    public class UserActivity
     {
         private Activity activity;
         private int timeSpent;
         private double burnedCalories;
 
+        public int TimeSpent { get => timeSpent; }
         public double BurnedCalories { get => burnedCalories; }
 
         public UserActivity(Activity activity, int timeSpent)
@@ -19,6 +20,11 @@ namespace Fitters
             this.activity = activity;
             this.timeSpent = timeSpent;
             CountBurnedCalories();
+        }
+
+        public string GetActivityName()
+        {
+            return activity.Name;
         }
 
         private void CountBurnedCalories()

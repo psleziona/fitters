@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fitters.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +18,7 @@ namespace Fitters
         {
             InitializeComponent();
             label26.Text = date.ToString();
-            day = Fitters.app.User.GetUserDay(date);
+            day = Fitters.app.calorieTracker.UserService.GetDayInformation(date);
             ShowBreakfast();
             ShowBrunch();
             ShowLunch();
@@ -32,7 +33,7 @@ namespace Fitters
             {
                 foreach(var p in day.Meals.Breakfast.Products)
                 {
-                    dataGridView1.Rows.Add(p.Product.Name, p.Quantity, p.CountCalories());
+                    dataGridView1.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
             }
         }
@@ -41,9 +42,9 @@ namespace Fitters
         {
             if(day.Meals.Brunch != null)
             {
-                foreach (var p in day.Meals.Breakfast.Products)
+                foreach (var p in day.Meals.Brunch.Products)
                 {
-                    dataGridView2.Rows.Add(p.Product.Name, p.Quantity, p.CountCalories());
+                    dataGridView2.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
             }
         }
@@ -52,9 +53,9 @@ namespace Fitters
         {
             if(day.Meals.AfternoonTea != null)
             {
-                foreach (var p in day.Meals.Breakfast.Products)
+                foreach (var p in day.Meals.AfternoonTea.Products)
                 {
-                    dataGridView4.Rows.Add(p.Product.Name, p.Quantity, p.CountCalories());
+                    dataGridView4.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
             }
         }
@@ -63,9 +64,9 @@ namespace Fitters
         {
             if(day.Meals.Dinner != null)
             {
-                foreach (var p in day.Meals.Breakfast.Products)
+                foreach (var p in day.Meals.Dinner.Products)
                 {
-                    dataGridView5.Rows.Add(p.Product.Name, p.Quantity, p.CountCalories());
+                    dataGridView5.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
             }
         }
@@ -74,9 +75,9 @@ namespace Fitters
         {
             if(day.Meals.Lunch != null)
             {
-                foreach (var p in day.Meals.Breakfast.Products)
+                foreach (var p in day.Meals.Lunch.Products)
                 {
-                    dataGridView3.Rows.Add(p.Product.Name, p.Quantity, p.CountCalories());
+                    dataGridView3.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
             }
         }
@@ -88,31 +89,31 @@ namespace Fitters
 
         private void buttonAddBreakfast_Click(object sender, EventArgs e)
         {
-            AddProductToMeal f = new AddProductToMeal(day.Date, day.Meals.Breakfast);
+            AddProductToMeal f = new AddProductToMeal(day.Date, typeof(Breakfast));
             f.ShowDialog();
         }
 
         private void buttonAddBrunch_Click(object sender, EventArgs e)
         {
-            AddProductToMeal f = new AddProductToMeal(day.Date, day.Meals.Brunch);
+            AddProductToMeal f = new AddProductToMeal(day.Date, typeof(Brunch));
             f.ShowDialog();
         }
 
         private void buttonAddLunch_Click(object sender, EventArgs e)
         {
-            AddProductToMeal f = new AddProductToMeal(day.Date, day.Meals.Lunch);
+            AddProductToMeal f = new AddProductToMeal(day.Date, typeof(Lunch));
             f.ShowDialog();
         }
 
         private void buttonAddAfternoonTea_Click(object sender, EventArgs e)
         {
-            AddProductToMeal f = new AddProductToMeal(day.Date, day.Meals.AfternoonTea);
+            AddProductToMeal f = new AddProductToMeal(day.Date, typeof(AfternoonTea));
             f.ShowDialog();
         }
 
         private void buttonAddDinner_Click(object sender, EventArgs e)
         {
-            AddProductToMeal f = new AddProductToMeal(day.Date, day.Meals.Dinner);
+            AddProductToMeal f = new AddProductToMeal(day.Date, typeof(Dinner));
             f.ShowDialog();
         }
     }

@@ -10,6 +10,9 @@ namespace Fitters.Models
     {
         private int capacity;
         private ProductUnit unit;
+
+        public int Capacity { get => capacity; }
+        public ProductUnit Unit { get => unit; }
         public ProductBulk(string name, double proteins, double carbons, double fats, int capacity, ProductUnit unit) : base(name, proteins, carbons, fats)
         {
             this.unit = unit;

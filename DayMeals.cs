@@ -10,7 +10,12 @@ namespace Fitters
     public class DayMeals
     {
         private List<Meal> meals;
-        
+        public Breakfast Breakfast { get => (Breakfast)meals.First(m => m.GetType() == typeof(Breakfast)); }
+        public Brunch Brunch { get => (Brunch)meals.First(m => m.GetType() == typeof(Brunch)); }
+        public Lunch Lunch { get => (Lunch)meals.First(m => m.GetType() == typeof(Lunch)); }
+        public AfternoonTea AfternoonTea { get => (AfternoonTea)meals.First(m => m.GetType() == typeof(AfternoonTea)); }
+        public Dinner Dinner { get => (Dinner)meals.First(m => m.GetType() == typeof(Dinner)); }
+
         public DayMeals()
         {
             meals = new List<Meal>
@@ -32,6 +37,11 @@ namespace Fitters
         public int GetEatenMealsNumber()
         {
             return meals.Where(meal => meal.GetCalories() > 0).Count();
+        }
+
+        public void AddProductToMeal(MealProductQuantity mealProduct, Type mealType)
+        {
+            meals.First(m => m.GetType() == mealType).AddProduct(mealProduct);
         }
 
     }

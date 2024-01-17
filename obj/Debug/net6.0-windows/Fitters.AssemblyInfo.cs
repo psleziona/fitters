@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fitters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+530b62050d3a03a60c4178f854d249f550fde6f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fitters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fitters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

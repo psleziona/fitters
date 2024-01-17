@@ -18,17 +18,12 @@ namespace Fitters
         public string Password { get => password; set => password = value; }
         public Calendar Calendar { get => calendar; }
 
-        public User(string login, string password, UserInformation userInformation)
+        public User(string login, string password, UserGender gender, Calendar calendar)
         {
             this.login = login;
             this.password = password;
-
-
-            List<Day> days = new List<Day>()
-            {
-                new Day(userInformation)
-            };
-            calendar = new Calendar(days);
+            this.gender = gender;
+            this.calendar = calendar;
         }
 
         public Day GetUserDay(DateTime date)

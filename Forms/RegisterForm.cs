@@ -35,7 +35,12 @@ namespace Fitters
             UserGender gender = (UserGender)comboBox1.SelectedItem;
             ActivityLevel activityLevel = (ActivityLevel)comboBox2.SelectedItem;
             UserInformation userInformation = new UserInformation(weight, height, age, activityLevel);
-            User user = new User(login, password, userInformation);
+            List<Day> days = new List<Day>()
+            {
+                new Day(userInformation)
+            };
+            Calendar calendar = new Calendar(days);
+            User user = new User(login, password, gender, calendar);
             if(UserAuth.AddUser(user))
             {
                 MessageBox.Show("Użytkownik dodany");

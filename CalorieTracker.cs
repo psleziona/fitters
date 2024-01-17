@@ -4,54 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fitters.Models;
+using Fitters.Services;
 
 namespace Fitters
 {
-    internal class CalorieTracker
+    public class CalorieTracker
     {
-        private User currentUser;
-        private List<Product> products;
-        private List<Activity> activities;
+        private ProductsService productsService;
+        private ActivitiesService activitiesService;
+        private UserService userService;
 
-        public User User { get => currentUser; }
-        public List<Product> Products { get => products; }
-        public List<Activity> Activities { get => activities; }
+        public ProductsService ProductsService { get => productsService; }
+        public ActivitiesService ActivitiesService { get => activitiesService; }
+        public UserService UserService { get => userService; }
 
-        public void ShowCalendar(Calendar userCalendar)
-        {
 
+        public CalorieTracker() {
+            productsService = new ProductsService();
+            activitiesService = new ActivitiesService();
+            userService = new UserService();
         }
 
-        public void SetActiveUser(User user)
+        public void AuthUser(User user)
         {
-            currentUser = user;
-        }
-
-        public void LoadProducts()
-        {
-            products = FileUtility.ReadDataFromFile<List<Product>>("/products") ?? new List<Product>();
-        }
-
-        public void LoadActivites() 
-        { 
-            activities = FileUtility.ReadDataFromFile<List<Activity>>("/activities") ?? new List<Activity>();
-        }
-
-        public void AddProduct(Product product)
-        {
-            products.Add(product);
-            FileUtility.WriteDateToFile(products, "/products");
-        }
-
-        public void AddActivity(Activity activity)
-        {
-            activities.Add(activity);
-            FileUtility.WriteDateToFile(activities, "/activities");
-        }
-
-        public Day GetDayInformation(DateTime date)
-        {
-            return null;
+            userService.AuthUser(user);
         }
     }
 }

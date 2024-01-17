@@ -26,8 +26,7 @@ namespace Fitters
             User? loggedUser = UserAuth.AuthenticateUser(login, password);
             if (loggedUser != null)
             {
-                Fitters.app.SetActiveUser(loggedUser);
-                Fitters.app.Show();
+                Fitters.app.calorieTracker.AuthUser(loggedUser);
                 parent.Dispose();
                 this.Dispose();
             }

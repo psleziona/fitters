@@ -32,7 +32,7 @@ namespace Fitters
                 new JsonSerializerSettings
                 {
                     TypeNameHandling = TypeNameHandling.All,
-                    TypeNameAssemblyFormatHandling = TypeNameAssemblyFormatHandling.Full
+                    TypeNameAssemblyFormatHandling = TypeNameAssemblyFormatHandling.Full          
                 });
             sr.Write(json);
         }
