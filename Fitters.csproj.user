@@ -4,6 +4,9 @@
     <Compile Update="Forms\AddProductToMeal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\AddUserActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserControls\CalendarDay.cs">
       <SubType>UserControl</SubType>
     </Compile>

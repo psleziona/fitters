@@ -172,9 +172,9 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.Location = new System.Drawing.Point(12, 472);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 25);
+            this.label7.Size = new System.Drawing.Size(94, 25);
             this.label7.TabIndex = 19;
-            this.label7.Text = "Wiek";
+            this.label7.Text = "Wiek [lata]";
             // 
             // RegisterForm
             // 

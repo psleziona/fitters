@@ -12,11 +12,11 @@ namespace Fitters
 {
     public partial class LoginForm : Form
     {
-        Welcome parent;
-        public LoginForm(Welcome parent)
+        CloseWelcomeScreen closeWelcomeScreen;
+        public LoginForm(CloseWelcomeScreen closeWelcomeScreen)
         {
             InitializeComponent();
-            this.parent = parent;
+            this.closeWelcomeScreen = closeWelcomeScreen;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace Fitters
             if (loggedUser != null)
             {
                 Fitters.app.calorieTracker.AuthUser(loggedUser);
-                parent.Dispose();
+                closeWelcomeScreen.Invoke();
                 this.Dispose();
             }
             else

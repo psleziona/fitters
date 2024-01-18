@@ -28,194 +28,273 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label32 = new Label();
-            label31 = new Label();
-            label30 = new Label();
-            label29 = new Label();
-            label28 = new Label();
-            label27 = new Label();
-            label26 = new Label();
-            label25 = new Label();
-            label24 = new Label();
-            panel45 = new Panel();
-            label23 = new Label();
-            panel44 = new Panel();
-            label22 = new Label();
-            panel43 = new Panel();
-            button7 = new Button();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker1 = new DateTimePicker();
-            SuspendLayout();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel44 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.labelEatenProteins = new System.Windows.Forms.Label();
+            this.labelEatenCarbs = new System.Windows.Forms.Label();
+            this.labelEatenFats = new System.Windows.Forms.Label();
+            this.labelEatenCalories = new System.Windows.Forms.Label();
+            this.labelBurnedCalories = new System.Windows.Forms.Label();
+            this.labelEnergyNeed = new System.Windows.Forms.Label();
+            this.labelBilans = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // label32
             // 
-            label32.AutoSize = true;
-            label32.Location = new Point(594, 551);
-            label32.Name = "label32";
-            label32.Size = new Size(38, 15);
-            label32.TabIndex = 33;
-            label32.Text = "Bilans";
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(594, 551);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(41, 15);
+            this.label32.TabIndex = 33;
+            this.label32.Text = "Bilans:";
             // 
             // label31
             // 
-            label31.AutoSize = true;
-            label31.Location = new Point(594, 525);
-            label31.Name = "label31";
-            label31.Size = new Size(171, 15);
-            label31.TabIndex = 32;
-            label31.Text = "Zapotrzebowanie energetyczne";
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(594, 525);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(174, 15);
+            this.label31.TabIndex = 32;
+            this.label31.Text = "Zapotrzebowanie energetyczne:";
             // 
             // label30
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(594, 499);
-            label30.Name = "label30";
-            label30.Size = new Size(108, 15);
-            label30.TabIndex = 31;
-            label30.Text = "Spalona ilość kalori";
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(594, 499);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(114, 15);
+            this.label30.TabIndex = 31;
+            this.label30.Text = "Spalona ilość kalorii:";
             // 
             // label29
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(594, 472);
-            label29.Name = "label29";
-            label29.Size = new Size(107, 15);
-            label29.TabIndex = 30;
-            label29.Text = "Spożyta ilość kalori";
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(594, 472);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(113, 15);
+            this.label29.TabIndex = 30;
+            this.label29.Text = "Spożyta ilość kalorii:";
             // 
             // label28
             // 
-            label28.AutoSize = true;
-            label28.Location = new Point(594, 443);
-            label28.Name = "label28";
-            label28.Size = new Size(95, 15);
-            label28.TabIndex = 29;
-            label28.Text = "Spożyte tłuszcze:";
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(594, 443);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(95, 15);
+            this.label28.TabIndex = 29;
+            this.label28.Text = "Spożyte tłuszcze:";
             // 
             // label27
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(594, 414);
-            label27.Name = "label27";
-            label27.Size = new Size(128, 15);
-            label27.TabIndex = 28;
-            label27.Text = "Spożyte węglowodany:";
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(594, 414);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(128, 15);
+            this.label27.TabIndex = 28;
+            this.label27.Text = "Spożyte węglowodany:";
             // 
             // label26
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(594, 384);
-            label26.Name = "label26";
-            label26.Size = new Size(85, 15);
-            label26.TabIndex = 27;
-            label26.Text = "Spożyte białka:";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(594, 384);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(85, 15);
+            this.label26.TabIndex = 27;
+            this.label26.Text = "Spożyte białka:";
             // 
             // label25
             // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label25.Location = new Point(594, 334);
-            label25.Name = "label25";
-            label25.Size = new Size(128, 37);
-            label25.TabIndex = 26;
-            label25.Text = "Statystyki";
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(594, 334);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(128, 37);
+            this.label25.TabIndex = 26;
+            this.label25.Text = "Statystyki";
             // 
             // label24
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(591, 284);
-            label24.Name = "label24";
-            label24.Size = new Size(238, 15);
-            label24.TabIndex = 25;
-            label24.Text = "Wykres przedstawiający bilans energetyczny";
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(591, 284);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(238, 15);
+            this.label24.TabIndex = 25;
+            this.label24.Text = "Wykres przedstawiający bilans energetyczny";
             // 
             // panel45
             // 
-            panel45.Location = new Point(590, 42);
-            panel45.Name = "panel45";
-            panel45.Size = new Size(485, 235);
-            panel45.TabIndex = 24;
+            this.panel45.Location = new System.Drawing.Point(590, 42);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(485, 235);
+            this.panel45.TabIndex = 24;
             // 
             // label23
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(13, 573);
-            label23.Name = "label23";
-            label23.Size = new Size(310, 15);
-            label23.TabIndex = 23;
-            label23.Text = "Wykres przedstawiający wykonywane aktywności fizyczne";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(13, 573);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(310, 15);
+            this.label23.TabIndex = 23;
+            this.label23.Text = "Wykres przedstawiający wykonywane aktywności fizyczne";
             // 
             // panel44
             // 
-            panel44.Location = new Point(12, 331);
-            panel44.Name = "panel44";
-            panel44.Size = new Size(485, 235);
-            panel44.TabIndex = 22;
+            this.panel44.Location = new System.Drawing.Point(12, 331);
+            this.panel44.Name = "panel44";
+            this.panel44.Size = new System.Drawing.Size(485, 235);
+            this.panel44.TabIndex = 22;
             // 
             // label22
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(12, 284);
-            label22.Name = "label22";
-            label22.Size = new Size(448, 15);
-            label22.TabIndex = 21;
-            label22.Text = "Wykres przedstawiający zawartość poszczególnych składników odżywczych w diecie";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(12, 284);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(448, 15);
+            this.label22.TabIndex = 21;
+            this.label22.Text = "Wykres przedstawiający zawartość poszczególnych składników odżywczych w diecie";
             // 
             // panel43
             // 
-            panel43.Location = new Point(11, 42);
-            panel43.Name = "panel43";
-            panel43.Size = new Size(485, 235);
-            panel43.TabIndex = 20;
+            this.panel43.Location = new System.Drawing.Point(11, 42);
+            this.panel43.Name = "panel43";
+            this.panel43.Size = new System.Drawing.Size(485, 235);
+            this.panel43.TabIndex = 20;
             // 
             // button7
             // 
-            button7.Location = new Point(421, 13);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 23);
-            button7.TabIndex = 19;
-            button7.Text = "Pokaż";
-            button7.UseVisualStyleBackColor = true;
+            this.button7.Location = new System.Drawing.Point(421, 13);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 19;
+            this.button7.Text = "Pokaż";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // dateTimePicker2
             // 
-            dateTimePicker2.Location = new Point(215, 13);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
-            dateTimePicker2.TabIndex = 18;
+            this.dateTimePicker2.Location = new System.Drawing.Point(215, 13);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker2.TabIndex = 18;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(9, 13);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 17;
+            this.dateTimePicker1.Location = new System.Drawing.Point(9, 13);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 17;
+            // 
+            // labelEatenProteins
+            // 
+            this.labelEatenProteins.AutoSize = true;
+            this.labelEatenProteins.Location = new System.Drawing.Point(793, 385);
+            this.labelEatenProteins.Name = "labelEatenProteins";
+            this.labelEatenProteins.Size = new System.Drawing.Size(38, 15);
+            this.labelEatenProteins.TabIndex = 34;
+            this.labelEatenProteins.Text = "label1";
+            // 
+            // labelEatenCarbs
+            // 
+            this.labelEatenCarbs.AutoSize = true;
+            this.labelEatenCarbs.Location = new System.Drawing.Point(791, 414);
+            this.labelEatenCarbs.Name = "labelEatenCarbs";
+            this.labelEatenCarbs.Size = new System.Drawing.Size(38, 15);
+            this.labelEatenCarbs.TabIndex = 35;
+            this.labelEatenCarbs.Text = "label2";
+            // 
+            // labelEatenFats
+            // 
+            this.labelEatenFats.AutoSize = true;
+            this.labelEatenFats.Location = new System.Drawing.Point(791, 443);
+            this.labelEatenFats.Name = "labelEatenFats";
+            this.labelEatenFats.Size = new System.Drawing.Size(38, 15);
+            this.labelEatenFats.TabIndex = 36;
+            this.labelEatenFats.Text = "label3";
+            // 
+            // labelEatenCalories
+            // 
+            this.labelEatenCalories.AutoSize = true;
+            this.labelEatenCalories.Location = new System.Drawing.Point(791, 472);
+            this.labelEatenCalories.Name = "labelEatenCalories";
+            this.labelEatenCalories.Size = new System.Drawing.Size(38, 15);
+            this.labelEatenCalories.TabIndex = 37;
+            this.labelEatenCalories.Text = "label4";
+            // 
+            // labelBurnedCalories
+            // 
+            this.labelBurnedCalories.AutoSize = true;
+            this.labelBurnedCalories.Location = new System.Drawing.Point(791, 499);
+            this.labelBurnedCalories.Name = "labelBurnedCalories";
+            this.labelBurnedCalories.Size = new System.Drawing.Size(38, 15);
+            this.labelBurnedCalories.TabIndex = 38;
+            this.labelBurnedCalories.Text = "label5";
+            // 
+            // labelEnergyNeed
+            // 
+            this.labelEnergyNeed.AutoSize = true;
+            this.labelEnergyNeed.Location = new System.Drawing.Point(791, 525);
+            this.labelEnergyNeed.Name = "labelEnergyNeed";
+            this.labelEnergyNeed.Size = new System.Drawing.Size(38, 15);
+            this.labelEnergyNeed.TabIndex = 39;
+            this.labelEnergyNeed.Text = "label6";
+            // 
+            // labelBilans
+            // 
+            this.labelBilans.AutoSize = true;
+            this.labelBilans.Location = new System.Drawing.Point(791, 551);
+            this.labelBilans.Name = "labelBilans";
+            this.labelBilans.Size = new System.Drawing.Size(38, 15);
+            this.labelBilans.TabIndex = 40;
+            this.labelBilans.Text = "label7";
             // 
             // ucStatistics
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label32);
-            Controls.Add(label31);
-            Controls.Add(label30);
-            Controls.Add(label29);
-            Controls.Add(label28);
-            Controls.Add(label27);
-            Controls.Add(label26);
-            Controls.Add(label25);
-            Controls.Add(label24);
-            Controls.Add(panel45);
-            Controls.Add(label23);
-            Controls.Add(panel44);
-            Controls.Add(label22);
-            Controls.Add(panel43);
-            Controls.Add(button7);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
-            Name = "ucStatistics";
-            Size = new Size(1335, 846);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.labelBilans);
+            this.Controls.Add(this.labelEnergyNeed);
+            this.Controls.Add(this.labelBurnedCalories);
+            this.Controls.Add(this.labelEatenCalories);
+            this.Controls.Add(this.labelEatenFats);
+            this.Controls.Add(this.labelEatenCarbs);
+            this.Controls.Add(this.labelEatenProteins);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.panel45);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.panel44);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.panel43);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Name = "ucStatistics";
+            this.Size = new System.Drawing.Size(1335, 846);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -237,5 +316,12 @@
         private Button button7;
         private DateTimePicker dateTimePicker2;
         private DateTimePicker dateTimePicker1;
+        private Label labelEatenProteins;
+        private Label labelEatenCarbs;
+        private Label labelEatenFats;
+        private Label labelEatenCalories;
+        private Label labelBurnedCalories;
+        private Label labelEnergyNeed;
+        private Label labelBilans;
     }
 }

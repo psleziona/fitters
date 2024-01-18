@@ -1,0 +1,1697 @@
+{
+  "$type": "Fitters.User, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "Login": "q",
+  "Password": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+  "Calendar": {
+    "$type": "Fitters.Calendar, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "Days": {
+      "$type": "System.Collections.Generic.List`1[[Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "$values": [
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-01T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-02T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-03T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-04T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-05T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-06T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-07T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-08T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-09T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-10T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-11T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-12T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-13T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-14T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-19T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-20T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-21T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-22T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-23T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-24T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-25T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-26T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-27T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-28T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-29T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-30T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-31T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-17T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": [
+                  {
+                    "$type": "Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "Product": {
+                      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                      "Name": "dsdfsdf",
+                      "Proteins": 1.0,
+                      "Carbons": 1.0,
+                      "Fats": 1.0
+                    },
+                    "Quantity": 2.0
+                  },
+                  {
+                    "$type": "Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "Product": {
+                      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                      "Name": "dsdfsdf",
+                      "Proteins": 1.0,
+                      "Carbons": 1.0,
+                      "Fats": 1.0
+                    },
+                    "Quantity": 0.5
+                  }
+                ]
+              },
+              "Calories": 42.5
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": [
+              {
+                "$type": "Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "TimeSpent": 20,
+                "BurnedCalories": 33.0,
+                "Activity": {
+                  "$type": "Fitters.Activity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Name": "Bieganie",
+                  "CaloriesBurnPerHour": 100
+                }
+              }
+            ]
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-16T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": [
+                  {
+                    "$type": "Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "Product": {
+                      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                      "Name": "dsdfsdf",
+                      "Proteins": 1.0,
+                      "Carbons": 1.0,
+                      "Fats": 1.0
+                    },
+                    "Quantity": 3.0
+                  }
+                ]
+              },
+              "Calories": 51.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-15T00:00:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": [
+                  {
+                    "$type": "Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "Product": {
+                      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                      "Name": "Pomidor mały 50g",
+                      "Proteins": 10.0,
+                      "Carbons": 1.0,
+                      "Fats": 1.0
+                    },
+                    "Quantity": 1.0
+                  }
+                ]
+              },
+              "Calories": 53.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": null,
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        },
+        {
+          "$type": "Fitters.Day, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Date": "2024-01-18T00:00:00+01:00",
+          "Meals": {
+            "$type": "Fitters.DayMeals, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Breakfast": {
+              "$type": "Fitters.Models.Breakfast, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": [
+                  {
+                    "$type": "Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "Product": {
+                      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                      "Name": "dsdfsdf",
+                      "Proteins": 1.0,
+                      "Carbons": 1.0,
+                      "Fats": 1.0
+                    },
+                    "Quantity": 1.0
+                  }
+                ]
+              },
+              "Calories": 17.0
+            },
+            "Brunch": {
+              "$type": "Fitters.Models.Brunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Lunch": {
+              "$type": "Fitters.Models.Lunch, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "AfternoonTea": {
+              "$type": "Fitters.Models.AfternoonTea, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            },
+            "Dinner": {
+              "$type": "Fitters.Models.Dinner, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "Products": {
+                "$type": "System.Collections.Generic.List`1[[Fitters.MealProductQuantity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+                "$values": []
+              },
+              "Calories": 0.0
+            }
+          },
+          "Information": {
+            "$type": "Fitters.UserInformation, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+          },
+          "Activities": {
+            "$type": "System.Collections.Generic.List`1[[Fitters.UserActivity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+            "$values": []
+          }
+        }
+      ]
+    }
+  }
+}

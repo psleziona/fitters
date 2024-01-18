@@ -28,7 +28,16 @@ namespace Fitters
 
         public Day GetUserDay(DateTime date)
         {
-            return calendar.Days.Where(d => d.Date == date).FirstOrDefault(new Day());
+            try
+            {
+                return calendar.Days.Where(d => d.Date == date).First();
+            } 
+            catch(InvalidOperationException e)
+            {
+                Day day = new Day(date);
+                calendar.Days.Add(day);
+                return day;
+            }
         }
     }
 }

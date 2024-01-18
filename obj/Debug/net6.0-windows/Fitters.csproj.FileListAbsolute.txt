@@ -16,7 +16,6 @@ C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku W
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.csproj.AssemblyReference.cache
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.DayView.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.Fitters.resources
-C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.Form1.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.LoginForm.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.RegisterForm.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.csproj.GenerateResource.cache
@@ -56,3 +55,13 @@ C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku W
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.UserControls.ucProducts.resources
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.UserControls.ucStatistics.resources
 C:\Users\pawel\OneDrive\Dokumenty\Studia\Semestr V\Programowanie w środowisku Windows\Fitters\Fitters\obj\Debug\net6.0-windows\Fitters.UserControls.ucUserPanel.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.Welcome.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucActivities.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucCalendar.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucProducts.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucStatistics.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucUserPanel.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.AddUserActivity.resources
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.WinForms.dll
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll

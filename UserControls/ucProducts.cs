@@ -19,9 +19,11 @@ namespace Fitters.UserControls
             comboBoxProductUnit.Items.AddRange(new object[] { ProductUnit.MILLILITRE, ProductUnit.GRAM });
             foreach (var p in Fitters.app.calorieTracker.ProductsService.Products)
             {
-                dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, "1", p.GetCalories());
+                if(p is ProductBulk)
+                    dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, ((ProductBulk)p).Capacity + " " + ((ProductBulk)p).Unit.ToString(), p.GetCalories());
+                if (p is ProductIndividual)
+                    dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, "1 szt.", p.GetCalories());
             }
-            //do poprawki
         }
 
         private void buttonAddProductToBase_Click(object sender, EventArgs e)
@@ -37,17 +39,16 @@ namespace Fitters.UserControls
             if (isCountable)
             {
                 p = new ProductIndividual(name, proteins, carbons, fats);
+                dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, "1 szt.", p.GetCalories());
             }
             else
             {
                 int capacity = int.Parse(textBoxProductAmount.Text);
                 ProductUnit unit = (ProductUnit)comboBoxProductUnit.SelectedItem;
                 p = new ProductBulk(name, proteins, carbons, fats, capacity, unit);
+                dataGridViewProducts.Rows.Add(p.Name, p.Proteins, p.Carbons, p.Fats, ((ProductBulk)p).Capacity + " " + ((ProductBulk)p).Unit.ToString(), p.GetCalories());
             }
             Fitters.app.calorieTracker.ProductsService.AddProduct(p);
-
-
-            //dodaj do datagrida
         }
 
         private void checkBoxIsProductCountable_CheckedChanged(object sender, EventArgs e)

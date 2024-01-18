@@ -10,6 +10,7 @@ namespace Fitters.Services
     {
         public void AuthUser(User user);
         public Day GetDayInformation(DateTime date);
+        public List<Day> GetDayList(DateTime start, DateTime end);
         public void AddProductToMeal(DateTime date, MealProductQuantity mealProduct, Type mealType);
         public void AddUserActivity(DateTime date, UserActivity activity);
     }

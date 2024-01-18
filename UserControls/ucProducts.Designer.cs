@@ -28,219 +28,227 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonAddProductToBase = new Button();
-            label15 = new Label();
-            comboBoxProductUnit = new ComboBox();
-            checkBoxIsProductCountable = new CheckBox();
-            textBoxProductAmount = new TextBox();
-            label14 = new Label();
-            textBoxProductCarbon = new TextBox();
-            label13 = new Label();
-            textBoxProductFat = new TextBox();
-            label12 = new Label();
-            textBoxProductProtein = new TextBox();
-            label11 = new Label();
-            textBoxProductName = new TextBox();
-            label10 = new Label();
-            dataGridViewProducts = new DataGridView();
-            name = new DataGridViewTextBoxColumn();
-            proteins = new DataGridViewTextBoxColumn();
-            carbs = new DataGridViewTextBoxColumn();
-            fats = new DataGridViewTextBoxColumn();
-            qty = new DataGridViewTextBoxColumn();
-            kcal = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewProducts).BeginInit();
-            SuspendLayout();
+            this.buttonAddProductToBase = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBoxProductUnit = new System.Windows.Forms.ComboBox();
+            this.checkBoxIsProductCountable = new System.Windows.Forms.CheckBox();
+            this.textBoxProductAmount = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBoxProductCarbon = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBoxProductFat = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBoxProductProtein = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxProductName = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dataGridViewProducts = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.proteins = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.carbs = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fats = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kcal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
+            this.SuspendLayout();
             // 
             // buttonAddProductToBase
             // 
-            buttonAddProductToBase.Location = new Point(639, 415);
-            buttonAddProductToBase.Name = "buttonAddProductToBase";
-            buttonAddProductToBase.Size = new Size(200, 49);
-            buttonAddProductToBase.TabIndex = 31;
-            buttonAddProductToBase.Text = "Dodaj";
-            buttonAddProductToBase.UseVisualStyleBackColor = true;
-            buttonAddProductToBase.Click += buttonAddProductToBase_Click;
+            this.buttonAddProductToBase.Location = new System.Drawing.Point(639, 415);
+            this.buttonAddProductToBase.Name = "buttonAddProductToBase";
+            this.buttonAddProductToBase.Size = new System.Drawing.Size(200, 49);
+            this.buttonAddProductToBase.TabIndex = 31;
+            this.buttonAddProductToBase.Text = "Dodaj";
+            this.buttonAddProductToBase.UseVisualStyleBackColor = true;
+            this.buttonAddProductToBase.Click += new System.EventHandler(this.buttonAddProductToBase_Click);
             // 
             // label15
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(639, 353);
-            label15.Name = "label15";
-            label15.Size = new Size(59, 15);
-            label15.TabIndex = 30;
-            label15.Text = "Jednostka";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(639, 353);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(59, 15);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "Jednostka";
             // 
             // comboBoxProductUnit
             // 
-            comboBoxProductUnit.Enabled = false;
-            comboBoxProductUnit.FormattingEnabled = true;
-            comboBoxProductUnit.Location = new Point(639, 371);
-            comboBoxProductUnit.Name = "comboBoxProductUnit";
-            comboBoxProductUnit.Size = new Size(200, 23);
-            comboBoxProductUnit.TabIndex = 29;
+            this.comboBoxProductUnit.Enabled = false;
+            this.comboBoxProductUnit.FormattingEnabled = true;
+            this.comboBoxProductUnit.Location = new System.Drawing.Point(639, 371);
+            this.comboBoxProductUnit.Name = "comboBoxProductUnit";
+            this.comboBoxProductUnit.Size = new System.Drawing.Size(200, 23);
+            this.comboBoxProductUnit.TabIndex = 29;
             // 
             // checkBoxIsProductCountable
             // 
-            checkBoxIsProductCountable.AutoSize = true;
-            checkBoxIsProductCountable.Checked = true;
-            checkBoxIsProductCountable.CheckState = CheckState.Checked;
-            checkBoxIsProductCountable.Location = new Point(644, 266);
-            checkBoxIsProductCountable.Name = "checkBoxIsProductCountable";
-            checkBoxIsProductCountable.Size = new Size(79, 19);
-            checkBoxIsProductCountable.TabIndex = 28;
-            checkBoxIsProductCountable.Text = "Policzalne";
-            checkBoxIsProductCountable.UseVisualStyleBackColor = true;
-            checkBoxIsProductCountable.CheckedChanged += checkBoxIsProductCountable_CheckedChanged;
+            this.checkBoxIsProductCountable.AutoSize = true;
+            this.checkBoxIsProductCountable.Checked = true;
+            this.checkBoxIsProductCountable.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxIsProductCountable.Location = new System.Drawing.Point(644, 266);
+            this.checkBoxIsProductCountable.Name = "checkBoxIsProductCountable";
+            this.checkBoxIsProductCountable.Size = new System.Drawing.Size(79, 19);
+            this.checkBoxIsProductCountable.TabIndex = 28;
+            this.checkBoxIsProductCountable.Text = "Policzalne";
+            this.checkBoxIsProductCountable.UseVisualStyleBackColor = true;
+            this.checkBoxIsProductCountable.CheckedChanged += new System.EventHandler(this.checkBoxIsProductCountable_CheckedChanged);
             // 
             // textBoxProductAmount
             // 
-            textBoxProductAmount.Enabled = false;
-            textBoxProductAmount.Location = new Point(639, 317);
-            textBoxProductAmount.Name = "textBoxProductAmount";
-            textBoxProductAmount.Size = new Size(200, 23);
-            textBoxProductAmount.TabIndex = 27;
+            this.textBoxProductAmount.Enabled = false;
+            this.textBoxProductAmount.Location = new System.Drawing.Point(639, 317);
+            this.textBoxProductAmount.Name = "textBoxProductAmount";
+            this.textBoxProductAmount.Size = new System.Drawing.Size(200, 23);
+            this.textBoxProductAmount.TabIndex = 27;
             // 
             // label14
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(644, 299);
-            label14.Name = "label14";
-            label14.Size = new Size(31, 15);
-            label14.TabIndex = 26;
-            label14.Text = "Ilość";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(644, 299);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(31, 15);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "Ilość";
             // 
             // textBoxProductCarbon
             // 
-            textBoxProductCarbon.Location = new Point(644, 227);
-            textBoxProductCarbon.Name = "textBoxProductCarbon";
-            textBoxProductCarbon.Size = new Size(195, 23);
-            textBoxProductCarbon.TabIndex = 25;
+            this.textBoxProductCarbon.Location = new System.Drawing.Point(644, 227);
+            this.textBoxProductCarbon.Name = "textBoxProductCarbon";
+            this.textBoxProductCarbon.Size = new System.Drawing.Size(195, 23);
+            this.textBoxProductCarbon.TabIndex = 25;
             // 
             // label13
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(644, 195);
-            label13.Name = "label13";
-            label13.Size = new Size(148, 15);
-            label13.TabIndex = 24;
-            label13.Text = "Zawartość węglowodanów";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(644, 195);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(166, 15);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Zawartość węglowodanów [g]";
             // 
             // textBoxProductFat
             // 
-            textBoxProductFat.Location = new Point(644, 158);
-            textBoxProductFat.Name = "textBoxProductFat";
-            textBoxProductFat.Size = new Size(195, 23);
-            textBoxProductFat.TabIndex = 23;
+            this.textBoxProductFat.Location = new System.Drawing.Point(644, 158);
+            this.textBoxProductFat.Name = "textBoxProductFat";
+            this.textBoxProductFat.Size = new System.Drawing.Size(195, 23);
+            this.textBoxProductFat.TabIndex = 23;
             // 
             // label12
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(644, 140);
-            label12.Name = "label12";
-            label12.Size = new Size(105, 15);
-            label12.TabIndex = 22;
-            label12.Text = "Zawartość tłuszczy";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(644, 140);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(123, 15);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Zawartość tłuszczy [g]";
             // 
             // textBoxProductProtein
             // 
-            textBoxProductProtein.Location = new Point(644, 98);
-            textBoxProductProtein.Name = "textBoxProductProtein";
-            textBoxProductProtein.Size = new Size(195, 23);
-            textBoxProductProtein.TabIndex = 21;
+            this.textBoxProductProtein.Location = new System.Drawing.Point(644, 98);
+            this.textBoxProductProtein.Name = "textBoxProductProtein";
+            this.textBoxProductProtein.Size = new System.Drawing.Size(195, 23);
+            this.textBoxProductProtein.TabIndex = 21;
             // 
             // label11
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(644, 80);
-            label11.Name = "label11";
-            label11.Size = new Size(95, 15);
-            label11.TabIndex = 20;
-            label11.Text = "Zawartość białka";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(644, 80);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(113, 15);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "Zawartość białka [g]";
             // 
             // textBoxProductName
             // 
-            textBoxProductName.Location = new Point(644, 41);
-            textBoxProductName.Name = "textBoxProductName";
-            textBoxProductName.Size = new Size(195, 23);
-            textBoxProductName.TabIndex = 19;
+            this.textBoxProductName.Location = new System.Drawing.Point(644, 41);
+            this.textBoxProductName.Name = "textBoxProductName";
+            this.textBoxProductName.Size = new System.Drawing.Size(195, 23);
+            this.textBoxProductName.TabIndex = 19;
             // 
             // label10
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(644, 23);
-            label10.Name = "label10";
-            label10.Size = new Size(42, 15);
-            label10.TabIndex = 18;
-            label10.Text = "Nazwa";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(644, 23);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(42, 15);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Nazwa";
             // 
             // dataGridViewProducts
             // 
-            dataGridViewProducts.AllowUserToAddRows = false;
-            dataGridViewProducts.AllowUserToDeleteRows = false;
-            dataGridViewProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewProducts.Columns.AddRange(new DataGridViewColumn[] { name, proteins, carbs, fats, qty, kcal });
-            dataGridViewProducts.Location = new Point(12, 12);
-            dataGridViewProducts.Name = "dataGridViewProducts";
-            dataGridViewProducts.RowHeadersVisible = false;
-            dataGridViewProducts.RowTemplate.Height = 25;
-            dataGridViewProducts.Size = new Size(603, 832);
-            dataGridViewProducts.TabIndex = 17;
+            this.dataGridViewProducts.AllowUserToAddRows = false;
+            this.dataGridViewProducts.AllowUserToDeleteRows = false;
+            this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProducts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.name,
+            this.proteins,
+            this.carbs,
+            this.fats,
+            this.qty,
+            this.kcal});
+            this.dataGridViewProducts.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewProducts.Name = "dataGridViewProducts";
+            this.dataGridViewProducts.RowHeadersVisible = false;
+            this.dataGridViewProducts.RowTemplate.Height = 25;
+            this.dataGridViewProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewProducts.Size = new System.Drawing.Size(603, 832);
+            this.dataGridViewProducts.TabIndex = 17;
             // 
             // name
             // 
-            name.HeaderText = "Nazwa";
-            name.Name = "name";
+            this.name.HeaderText = "Nazwa";
+            this.name.Name = "name";
             // 
             // proteins
             // 
-            proteins.HeaderText = "Białka";
-            proteins.Name = "proteins";
+            this.proteins.HeaderText = "Białka";
+            this.proteins.Name = "proteins";
             // 
             // carbs
             // 
-            carbs.HeaderText = "Węglowodany";
-            carbs.Name = "carbs";
+            this.carbs.HeaderText = "Węglowodany";
+            this.carbs.Name = "carbs";
             // 
             // fats
             // 
-            fats.HeaderText = "Tłuszcze";
-            fats.Name = "fats";
+            this.fats.HeaderText = "Tłuszcze";
+            this.fats.Name = "fats";
             // 
             // qty
             // 
-            qty.HeaderText = "Ilość";
-            qty.Name = "qty";
+            this.qty.HeaderText = "Ilość";
+            this.qty.Name = "qty";
             // 
             // kcal
             // 
-            kcal.HeaderText = "Kalorie";
-            kcal.Name = "kcal";
+            this.kcal.HeaderText = "Kalorie";
+            this.kcal.Name = "kcal";
             // 
             // ucProducts
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(buttonAddProductToBase);
-            Controls.Add(label15);
-            Controls.Add(comboBoxProductUnit);
-            Controls.Add(checkBoxIsProductCountable);
-            Controls.Add(textBoxProductAmount);
-            Controls.Add(label14);
-            Controls.Add(textBoxProductCarbon);
-            Controls.Add(label13);
-            Controls.Add(textBoxProductFat);
-            Controls.Add(label12);
-            Controls.Add(textBoxProductProtein);
-            Controls.Add(label11);
-            Controls.Add(textBoxProductName);
-            Controls.Add(label10);
-            Controls.Add(dataGridViewProducts);
-            Name = "ucProducts";
-            Size = new Size(1335, 846);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewProducts).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonAddProductToBase);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.comboBoxProductUnit);
+            this.Controls.Add(this.checkBoxIsProductCountable);
+            this.Controls.Add(this.textBoxProductAmount);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.textBoxProductCarbon);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.textBoxProductFat);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textBoxProductProtein);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBoxProductName);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.dataGridViewProducts);
+            this.Name = "ucProducts";
+            this.Size = new System.Drawing.Size(1335, 846);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

@@ -25,7 +25,7 @@ namespace Fitters.UserControls
             int caloriesBurned = int.Parse(textBoxActivityBurnedCalories.Text);
             Activity activity = new Activity(name, caloriesBurned);
             Fitters.app.calorieTracker.ActivitiesService.AddActivity(activity);
-            //pokaż w datagrid
+            dataGridViewActivities.Rows.Add(activity.Name, activity.CaloriesBurnPerHour);
         }
 
     }

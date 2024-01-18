@@ -21,7 +21,11 @@ namespace Fitters.Services
 
         public void AddUserActivity(DateTime date, UserActivity activity)
         {
-            GetDayInformation(date).AddUserActivity(activity);
+            Day day = GetDayInformation(date);
+            day.AddUserActivity(activity);
+            activeUser.Calendar.Days = activeUser.Calendar.Days.Where(d => d.Date != date).ToList();
+            activeUser.Calendar.Days.Add(day);
+            SaveUserData();
         }
 
         public void AuthUser(User user)
@@ -32,6 +36,11 @@ namespace Fitters.Services
         public Day GetDayInformation(DateTime date)
         {
             return activeUser.GetUserDay(date);
+        }
+
+        public List<Day> GetDayList(DateTime start, DateTime end)
+        {
+            return activeUser.Calendar.Days.Where(d => d.Date >= start && d.Date <= end).ToList();
         }
 
         private void SaveUserData()

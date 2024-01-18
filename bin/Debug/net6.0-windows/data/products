@@ -7,6 +7,22 @@
       "Proteins": 1.0,
       "Carbons": 1.0,
       "Fats": 1.0
+    },
+    {
+      "$type": "Fitters.Models.ProductIndividual, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Pomidor mały 50g",
+      "Proteins": 10.0,
+      "Carbons": 1.0,
+      "Fats": 1.0
+    },
+    {
+      "$type": "Fitters.Models.ProductBulk, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Capacity": 100,
+      "Unit": 0,
+      "Name": "ogórek",
+      "Proteins": 2.0,
+      "Carbons": 2.0,
+      "Fats": 1.0
     }
   ]
 }

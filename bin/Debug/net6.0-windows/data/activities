@@ -1,0 +1,15 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Fitters.Activity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+  "$values": [
+    {
+      "$type": "Fitters.Activity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Bieganie",
+      "CaloriesBurnPerHour": 100
+    },
+    {
+      "$type": "Fitters.Activity, Fitters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Pływanie",
+      "CaloriesBurnPerHour": 120
+    }
+  ]
+}

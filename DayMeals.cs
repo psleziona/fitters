@@ -44,5 +44,20 @@ namespace Fitters
             meals.First(m => m.GetType() == mealType).AddProduct(mealProduct);
         }
 
+        public double GetEatenProteins()
+        {
+            return meals.Aggregate(0.0, (total, meal) => total + meal.GetMealProteins());
+        }
+
+        public double GetEatenFats()
+        {
+            return meals.Aggregate(0.0, (total, meal) => total + meal.GetMealFats());
+        }
+
+        public double GetEatenCarbons()
+        {
+            return meals.Aggregate(0.0, (total, meal) => total + meal.GetMealCarbons());
+        }
+
     }
 }

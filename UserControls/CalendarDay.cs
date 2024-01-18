@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Fitters
 {
+    public delegate void RefreshControl();
     public partial class CalendarDay : UserControl
     {
         private bool active;
@@ -38,15 +39,15 @@ namespace Fitters
         private void CalendarDay_Click(object sender, EventArgs e)
         {
             if (!active) return;
-            DayView dayView = new DayView(date);
+            DayView dayView = new DayView(date, new RefreshControl(SetDayInformation));
             dayView.Show();
         }
 
         private void SetDayInformation()
         {
             label7.Text = day.GetEatenMealsNumber().ToString();
-            label6.Text = day.GetEatenCalories().ToString();
-            label5.Text = day.GetBurnedCalories().ToString();
+            label6.Text = day.GetEatenCalories().ToString() + " kcal";
+            label5.Text = day.GetBurnedCalories().ToString() + " kcal";
         }
     }
 }

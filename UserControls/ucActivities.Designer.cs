@@ -28,98 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonAddActivityToBase = new Button();
-            textBoxActivityBurnedCalories = new TextBox();
-            label20 = new Label();
-            textBoxActivityName = new TextBox();
-            label21 = new Label();
-            dataGridViewActivities = new DataGridView();
-            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewActivities).BeginInit();
-            SuspendLayout();
+            this.buttonAddActivityToBase = new System.Windows.Forms.Button();
+            this.textBoxActivityBurnedCalories = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBoxActivityName = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.dataGridViewActivities = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewActivities)).BeginInit();
+            this.SuspendLayout();
             // 
             // buttonAddActivityToBase
             // 
-            buttonAddActivityToBase.Location = new Point(635, 138);
-            buttonAddActivityToBase.Name = "buttonAddActivityToBase";
-            buttonAddActivityToBase.Size = new Size(200, 49);
-            buttonAddActivityToBase.TabIndex = 37;
-            buttonAddActivityToBase.Text = "Dodaj";
-            buttonAddActivityToBase.UseVisualStyleBackColor = true;
-            buttonAddActivityToBase.Click += buttonAddActivityToBase_Click;
+            this.buttonAddActivityToBase.Location = new System.Drawing.Point(635, 138);
+            this.buttonAddActivityToBase.Name = "buttonAddActivityToBase";
+            this.buttonAddActivityToBase.Size = new System.Drawing.Size(200, 49);
+            this.buttonAddActivityToBase.TabIndex = 37;
+            this.buttonAddActivityToBase.Text = "Dodaj";
+            this.buttonAddActivityToBase.UseVisualStyleBackColor = true;
+            this.buttonAddActivityToBase.Click += new System.EventHandler(this.buttonAddActivityToBase_Click);
             // 
             // textBoxActivityBurnedCalories
             // 
-            textBoxActivityBurnedCalories.Location = new Point(635, 89);
-            textBoxActivityBurnedCalories.Name = "textBoxActivityBurnedCalories";
-            textBoxActivityBurnedCalories.Size = new Size(195, 23);
-            textBoxActivityBurnedCalories.TabIndex = 36;
+            this.textBoxActivityBurnedCalories.Location = new System.Drawing.Point(635, 89);
+            this.textBoxActivityBurnedCalories.Name = "textBoxActivityBurnedCalories";
+            this.textBoxActivityBurnedCalories.Size = new System.Drawing.Size(195, 23);
+            this.textBoxActivityBurnedCalories.TabIndex = 36;
             // 
             // label20
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(635, 71);
-            label20.Name = "label20";
-            label20.Size = new Size(86, 15);
-            label20.TabIndex = 35;
-            label20.Text = "Spalane kalorie";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(635, 71);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(147, 15);
+            this.label20.TabIndex = 35;
+            this.label20.Text = "Spalane kalorie na godzinę";
             // 
             // textBoxActivityName
             // 
-            textBoxActivityName.Location = new Point(635, 32);
-            textBoxActivityName.Name = "textBoxActivityName";
-            textBoxActivityName.Size = new Size(195, 23);
-            textBoxActivityName.TabIndex = 34;
+            this.textBoxActivityName.Location = new System.Drawing.Point(635, 32);
+            this.textBoxActivityName.Name = "textBoxActivityName";
+            this.textBoxActivityName.Size = new System.Drawing.Size(195, 23);
+            this.textBoxActivityName.TabIndex = 34;
             // 
             // label21
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(635, 14);
-            label21.Name = "label21";
-            label21.Size = new Size(42, 15);
-            label21.TabIndex = 33;
-            label21.Text = "Nazwa";
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(635, 14);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(42, 15);
+            this.label21.TabIndex = 33;
+            this.label21.Text = "Nazwa";
             // 
             // dataGridViewActivities
             // 
-            dataGridViewActivities.AllowUserToAddRows = false;
-            dataGridViewActivities.AllowUserToDeleteRows = false;
-            dataGridViewActivities.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewActivities.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewActivities.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn6 });
-            dataGridViewActivities.Location = new Point(3, 3);
-            dataGridViewActivities.Name = "dataGridViewActivities";
-            dataGridViewActivities.RowHeadersVisible = false;
-            dataGridViewActivities.RowTemplate.Height = 25;
-            dataGridViewActivities.Size = new Size(603, 832);
-            dataGridViewActivities.TabIndex = 32;
+            this.dataGridViewActivities.AllowUserToAddRows = false;
+            this.dataGridViewActivities.AllowUserToDeleteRows = false;
+            this.dataGridViewActivities.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewActivities.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewActivities.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn6});
+            this.dataGridViewActivities.Location = new System.Drawing.Point(3, 3);
+            this.dataGridViewActivities.Name = "dataGridViewActivities";
+            this.dataGridViewActivities.RowHeadersVisible = false;
+            this.dataGridViewActivities.RowTemplate.Height = 25;
+            this.dataGridViewActivities.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewActivities.Size = new System.Drawing.Size(603, 832);
+            this.dataGridViewActivities.TabIndex = 32;
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewTextBoxColumn1.HeaderText = "Nazwa";
-            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Nazwa";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // dataGridViewTextBoxColumn6
             // 
-            dataGridViewTextBoxColumn6.HeaderText = "Spalane kalorie";
-            dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Spalane kalorie";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
             // ucActivities
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(buttonAddActivityToBase);
-            Controls.Add(textBoxActivityBurnedCalories);
-            Controls.Add(label20);
-            Controls.Add(textBoxActivityName);
-            Controls.Add(label21);
-            Controls.Add(dataGridViewActivities);
-            Name = "ucActivities";
-            Size = new Size(1335, 846);
-            ((System.ComponentModel.ISupportInitialize)dataGridViewActivities).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonAddActivityToBase);
+            this.Controls.Add(this.textBoxActivityBurnedCalories);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.textBoxActivityName);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.dataGridViewActivities);
+            this.Name = "ucActivities";
+            this.Size = new System.Drawing.Size(1335, 846);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewActivities)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

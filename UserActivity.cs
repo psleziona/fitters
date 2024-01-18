@@ -14,6 +14,7 @@ namespace Fitters
 
         public int TimeSpent { get => timeSpent; }
         public double BurnedCalories { get => burnedCalories; }
+        public Activity Activity { get => activity; }
 
         public UserActivity(Activity activity, int timeSpent)
         {
