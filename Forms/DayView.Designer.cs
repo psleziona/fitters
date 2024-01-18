@@ -110,6 +110,10 @@
             this.label34 = new System.Windows.Forms.Label();
             this.labelDinnerCalories = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.labelTotalEaten = new System.Windows.Forms.Label();
+            this.labelBurnedTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -122,7 +126,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 55);
+            this.label2.Location = new System.Drawing.Point(15, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 30);
             this.label2.TabIndex = 1;
@@ -132,7 +136,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(14, 530);
+            this.label3.Location = new System.Drawing.Point(15, 620);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 30);
             this.label3.TabIndex = 2;
@@ -142,7 +146,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 412);
+            this.label4.Location = new System.Drawing.Point(12, 480);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 30);
             this.label4.TabIndex = 3;
@@ -152,7 +156,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(14, 289);
+            this.label5.Location = new System.Drawing.Point(15, 340);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 30);
             this.label5.TabIndex = 4;
@@ -162,7 +166,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(18, 175);
+            this.label6.Location = new System.Drawing.Point(15, 200);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(121, 30);
             this.label6.TabIndex = 5;
@@ -171,7 +175,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 88);
+            this.label7.Location = new System.Drawing.Point(15, 95);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 15);
             this.label7.TabIndex = 6;
@@ -180,7 +184,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 108);
+            this.label8.Location = new System.Drawing.Point(15, 115);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(53, 15);
             this.label8.TabIndex = 7;
@@ -189,7 +193,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 129);
+            this.label9.Location = new System.Drawing.Point(15, 135);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 15);
             this.label9.TabIndex = 8;
@@ -198,7 +202,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 242);
+            this.label10.Location = new System.Drawing.Point(15, 275);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 15);
             this.label10.TabIndex = 11;
@@ -207,7 +211,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 224);
+            this.label11.Location = new System.Drawing.Point(15, 255);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(53, 15);
             this.label11.TabIndex = 10;
@@ -216,7 +220,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(12, 205);
+            this.label12.Location = new System.Drawing.Point(15, 235);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(41, 15);
             this.label12.TabIndex = 9;
@@ -225,7 +229,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(16, 357);
+            this.label13.Location = new System.Drawing.Point(15, 415);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(86, 15);
             this.label13.TabIndex = 14;
@@ -234,7 +238,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(16, 339);
+            this.label14.Location = new System.Drawing.Point(15, 395);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(53, 15);
             this.label14.TabIndex = 13;
@@ -243,7 +247,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(16, 319);
+            this.label15.Location = new System.Drawing.Point(15, 375);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(41, 15);
             this.label15.TabIndex = 12;
@@ -252,7 +256,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(14, 478);
+            this.label16.Location = new System.Drawing.Point(15, 555);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(86, 15);
             this.label16.TabIndex = 17;
@@ -261,7 +265,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(15, 460);
+            this.label17.Location = new System.Drawing.Point(15, 535);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 15);
             this.label17.TabIndex = 16;
@@ -270,7 +274,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(16, 442);
+            this.label18.Location = new System.Drawing.Point(15, 515);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 15);
             this.label18.TabIndex = 15;
@@ -279,7 +283,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(15, 596);
+            this.label19.Location = new System.Drawing.Point(15, 695);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(86, 15);
             this.label19.TabIndex = 20;
@@ -288,7 +292,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(14, 578);
+            this.label20.Location = new System.Drawing.Point(15, 675);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(53, 15);
             this.label20.TabIndex = 19;
@@ -297,7 +301,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(15, 560);
+            this.label21.Location = new System.Drawing.Point(15, 655);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(41, 15);
             this.label21.TabIndex = 18;
@@ -307,7 +311,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(12, 648);
+            this.label22.Location = new System.Drawing.Point(15, 760);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(116, 30);
             this.label22.TabIndex = 21;
@@ -316,7 +320,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(12, 687);
+            this.label23.Location = new System.Drawing.Point(15, 795);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(90, 15);
             this.label23.TabIndex = 22;
@@ -326,7 +330,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(12, 744);
+            this.label24.Location = new System.Drawing.Point(15, 900);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(68, 30);
             this.label24.TabIndex = 23;
@@ -335,7 +339,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(12, 783);
+            this.label25.Location = new System.Drawing.Point(15, 975);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(51, 15);
             this.label25.TabIndex = 24;
@@ -350,12 +354,12 @@
             this.product,
             this.quantity,
             this.calories});
-            this.dataGridView1.Location = new System.Drawing.Point(176, 59);
+            this.dataGridView1.Location = new System.Drawing.Point(176, 60);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView1.Size = new System.Drawing.Size(303, 120);
             this.dataGridView1.TabIndex = 25;
             // 
             // product
@@ -378,7 +382,7 @@
             // 
             // buttonAddBreakfast
             // 
-            this.buttonAddBreakfast.Location = new System.Drawing.Point(502, 58);
+            this.buttonAddBreakfast.Location = new System.Drawing.Point(502, 60);
             this.buttonAddBreakfast.Name = "buttonAddBreakfast";
             this.buttonAddBreakfast.Size = new System.Drawing.Size(125, 45);
             this.buttonAddBreakfast.TabIndex = 26;
@@ -388,7 +392,7 @@
             // 
             // buttonAddBrunch
             // 
-            this.buttonAddBrunch.Location = new System.Drawing.Point(502, 175);
+            this.buttonAddBrunch.Location = new System.Drawing.Point(502, 200);
             this.buttonAddBrunch.Name = "buttonAddBrunch";
             this.buttonAddBrunch.Size = new System.Drawing.Size(125, 45);
             this.buttonAddBrunch.TabIndex = 28;
@@ -405,12 +409,12 @@
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
-            this.dataGridView2.Location = new System.Drawing.Point(176, 176);
+            this.dataGridView2.Location = new System.Drawing.Point(176, 200);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowTemplate.Height = 25;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView2.Size = new System.Drawing.Size(303, 120);
             this.dataGridView2.TabIndex = 27;
             // 
             // dataGridViewTextBoxColumn1
@@ -433,7 +437,7 @@
             // 
             // buttonAddLunch
             // 
-            this.buttonAddLunch.Location = new System.Drawing.Point(502, 289);
+            this.buttonAddLunch.Location = new System.Drawing.Point(502, 340);
             this.buttonAddLunch.Name = "buttonAddLunch";
             this.buttonAddLunch.Size = new System.Drawing.Size(125, 45);
             this.buttonAddLunch.TabIndex = 30;
@@ -450,12 +454,12 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
-            this.dataGridView3.Location = new System.Drawing.Point(176, 290);
+            this.dataGridView3.Location = new System.Drawing.Point(176, 340);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersVisible = false;
             this.dataGridView3.RowTemplate.Height = 25;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView3.Size = new System.Drawing.Size(303, 120);
             this.dataGridView3.TabIndex = 29;
             // 
             // dataGridViewTextBoxColumn4
@@ -478,7 +482,7 @@
             // 
             // buttonAddAfternoonTea
             // 
-            this.buttonAddAfternoonTea.Location = new System.Drawing.Point(502, 412);
+            this.buttonAddAfternoonTea.Location = new System.Drawing.Point(502, 480);
             this.buttonAddAfternoonTea.Name = "buttonAddAfternoonTea";
             this.buttonAddAfternoonTea.Size = new System.Drawing.Size(125, 45);
             this.buttonAddAfternoonTea.TabIndex = 32;
@@ -495,12 +499,12 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9});
-            this.dataGridView4.Location = new System.Drawing.Point(176, 413);
+            this.dataGridView4.Location = new System.Drawing.Point(176, 480);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowHeadersVisible = false;
             this.dataGridView4.RowTemplate.Height = 25;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView4.Size = new System.Drawing.Size(303, 120);
             this.dataGridView4.TabIndex = 31;
             // 
             // dataGridViewTextBoxColumn7
@@ -523,7 +527,7 @@
             // 
             // buttonAddDinner
             // 
-            this.buttonAddDinner.Location = new System.Drawing.Point(502, 530);
+            this.buttonAddDinner.Location = new System.Drawing.Point(502, 620);
             this.buttonAddDinner.Name = "buttonAddDinner";
             this.buttonAddDinner.Size = new System.Drawing.Size(125, 45);
             this.buttonAddDinner.TabIndex = 34;
@@ -540,12 +544,12 @@
             this.dataGridViewTextBoxColumn10,
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12});
-            this.dataGridView5.Location = new System.Drawing.Point(176, 531);
+            this.dataGridView5.Location = new System.Drawing.Point(176, 620);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowHeadersVisible = false;
             this.dataGridView5.RowTemplate.Height = 25;
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView5.Size = new System.Drawing.Size(303, 120);
             this.dataGridView5.TabIndex = 33;
             // 
             // dataGridViewTextBoxColumn10
@@ -575,12 +579,12 @@
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14,
             this.dataGridViewTextBoxColumn15});
-            this.dataGridView6.Location = new System.Drawing.Point(176, 648);
+            this.dataGridView6.Location = new System.Drawing.Point(176, 760);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.RowHeadersVisible = false;
             this.dataGridView6.RowTemplate.Height = 25;
             this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView6.Size = new System.Drawing.Size(303, 95);
+            this.dataGridView6.Size = new System.Drawing.Size(303, 120);
             this.dataGridView6.TabIndex = 35;
             // 
             // dataGridViewTextBoxColumn13
@@ -600,7 +604,7 @@
             // 
             // buttonAddActivity
             // 
-            this.buttonAddActivity.Location = new System.Drawing.Point(502, 645);
+            this.buttonAddActivity.Location = new System.Drawing.Point(502, 760);
             this.buttonAddActivity.Name = "buttonAddActivity";
             this.buttonAddActivity.Size = new System.Drawing.Size(125, 45);
             this.buttonAddActivity.TabIndex = 36;
@@ -621,7 +625,7 @@
             // labelBreakfastProteins
             // 
             this.labelBreakfastProteins.AutoSize = true;
-            this.labelBreakfastProteins.Location = new System.Drawing.Point(115, 88);
+            this.labelBreakfastProteins.Location = new System.Drawing.Point(115, 95);
             this.labelBreakfastProteins.Name = "labelBreakfastProteins";
             this.labelBreakfastProteins.Size = new System.Drawing.Size(44, 15);
             this.labelBreakfastProteins.TabIndex = 38;
@@ -630,7 +634,7 @@
             // labelBreakfastFats
             // 
             this.labelBreakfastFats.AutoSize = true;
-            this.labelBreakfastFats.Location = new System.Drawing.Point(115, 108);
+            this.labelBreakfastFats.Location = new System.Drawing.Point(115, 115);
             this.labelBreakfastFats.Name = "labelBreakfastFats";
             this.labelBreakfastFats.Size = new System.Drawing.Size(44, 15);
             this.labelBreakfastFats.TabIndex = 39;
@@ -639,7 +643,7 @@
             // labelBreakfastCarbs
             // 
             this.labelBreakfastCarbs.AutoSize = true;
-            this.labelBreakfastCarbs.Location = new System.Drawing.Point(115, 129);
+            this.labelBreakfastCarbs.Location = new System.Drawing.Point(115, 135);
             this.labelBreakfastCarbs.Name = "labelBreakfastCarbs";
             this.labelBreakfastCarbs.Size = new System.Drawing.Size(44, 15);
             this.labelBreakfastCarbs.TabIndex = 40;
@@ -648,7 +652,7 @@
             // labelBrunchProteins
             // 
             this.labelBrunchProteins.AutoSize = true;
-            this.labelBrunchProteins.Location = new System.Drawing.Point(115, 205);
+            this.labelBrunchProteins.Location = new System.Drawing.Point(115, 235);
             this.labelBrunchProteins.Name = "labelBrunchProteins";
             this.labelBrunchProteins.Size = new System.Drawing.Size(44, 15);
             this.labelBrunchProteins.TabIndex = 41;
@@ -657,7 +661,7 @@
             // labelBrunchFats
             // 
             this.labelBrunchFats.AutoSize = true;
-            this.labelBrunchFats.Location = new System.Drawing.Point(115, 224);
+            this.labelBrunchFats.Location = new System.Drawing.Point(115, 255);
             this.labelBrunchFats.Name = "labelBrunchFats";
             this.labelBrunchFats.Size = new System.Drawing.Size(44, 15);
             this.labelBrunchFats.TabIndex = 42;
@@ -666,7 +670,7 @@
             // labelBrunchCarbs
             // 
             this.labelBrunchCarbs.AutoSize = true;
-            this.labelBrunchCarbs.Location = new System.Drawing.Point(115, 242);
+            this.labelBrunchCarbs.Location = new System.Drawing.Point(115, 275);
             this.labelBrunchCarbs.Name = "labelBrunchCarbs";
             this.labelBrunchCarbs.Size = new System.Drawing.Size(44, 15);
             this.labelBrunchCarbs.TabIndex = 43;
@@ -675,7 +679,7 @@
             // labelLunchProteins
             // 
             this.labelLunchProteins.AutoSize = true;
-            this.labelLunchProteins.Location = new System.Drawing.Point(114, 319);
+            this.labelLunchProteins.Location = new System.Drawing.Point(115, 375);
             this.labelLunchProteins.Name = "labelLunchProteins";
             this.labelLunchProteins.Size = new System.Drawing.Size(44, 15);
             this.labelLunchProteins.TabIndex = 44;
@@ -684,7 +688,7 @@
             // labelLunchFats
             // 
             this.labelLunchFats.AutoSize = true;
-            this.labelLunchFats.Location = new System.Drawing.Point(114, 339);
+            this.labelLunchFats.Location = new System.Drawing.Point(115, 395);
             this.labelLunchFats.Name = "labelLunchFats";
             this.labelLunchFats.Size = new System.Drawing.Size(44, 15);
             this.labelLunchFats.TabIndex = 45;
@@ -693,7 +697,7 @@
             // labelLunchCarbs
             // 
             this.labelLunchCarbs.AutoSize = true;
-            this.labelLunchCarbs.Location = new System.Drawing.Point(115, 357);
+            this.labelLunchCarbs.Location = new System.Drawing.Point(115, 415);
             this.labelLunchCarbs.Name = "labelLunchCarbs";
             this.labelLunchCarbs.Size = new System.Drawing.Size(44, 15);
             this.labelLunchCarbs.TabIndex = 46;
@@ -702,7 +706,7 @@
             // labelAfternoonTeaProteins
             // 
             this.labelAfternoonTeaProteins.AutoSize = true;
-            this.labelAfternoonTeaProteins.Location = new System.Drawing.Point(115, 442);
+            this.labelAfternoonTeaProteins.Location = new System.Drawing.Point(115, 515);
             this.labelAfternoonTeaProteins.Name = "labelAfternoonTeaProteins";
             this.labelAfternoonTeaProteins.Size = new System.Drawing.Size(44, 15);
             this.labelAfternoonTeaProteins.TabIndex = 47;
@@ -711,7 +715,7 @@
             // labelAfternoonTeaFats
             // 
             this.labelAfternoonTeaFats.AutoSize = true;
-            this.labelAfternoonTeaFats.Location = new System.Drawing.Point(115, 460);
+            this.labelAfternoonTeaFats.Location = new System.Drawing.Point(115, 535);
             this.labelAfternoonTeaFats.Name = "labelAfternoonTeaFats";
             this.labelAfternoonTeaFats.Size = new System.Drawing.Size(44, 15);
             this.labelAfternoonTeaFats.TabIndex = 48;
@@ -720,7 +724,7 @@
             // labelAfternoonTeaCarbs
             // 
             this.labelAfternoonTeaCarbs.AutoSize = true;
-            this.labelAfternoonTeaCarbs.Location = new System.Drawing.Point(114, 478);
+            this.labelAfternoonTeaCarbs.Location = new System.Drawing.Point(115, 555);
             this.labelAfternoonTeaCarbs.Name = "labelAfternoonTeaCarbs";
             this.labelAfternoonTeaCarbs.Size = new System.Drawing.Size(44, 15);
             this.labelAfternoonTeaCarbs.TabIndex = 49;
@@ -729,7 +733,7 @@
             // labelDinnerProteins
             // 
             this.labelDinnerProteins.AutoSize = true;
-            this.labelDinnerProteins.Location = new System.Drawing.Point(115, 560);
+            this.labelDinnerProteins.Location = new System.Drawing.Point(115, 655);
             this.labelDinnerProteins.Name = "labelDinnerProteins";
             this.labelDinnerProteins.Size = new System.Drawing.Size(44, 15);
             this.labelDinnerProteins.TabIndex = 50;
@@ -738,7 +742,7 @@
             // labelDinnerFats
             // 
             this.labelDinnerFats.AutoSize = true;
-            this.labelDinnerFats.Location = new System.Drawing.Point(114, 578);
+            this.labelDinnerFats.Location = new System.Drawing.Point(115, 675);
             this.labelDinnerFats.Name = "labelDinnerFats";
             this.labelDinnerFats.Size = new System.Drawing.Size(44, 15);
             this.labelDinnerFats.TabIndex = 51;
@@ -747,7 +751,7 @@
             // labelDinnerCarbs
             // 
             this.labelDinnerCarbs.AutoSize = true;
-            this.labelDinnerCarbs.Location = new System.Drawing.Point(114, 596);
+            this.labelDinnerCarbs.Location = new System.Drawing.Point(115, 695);
             this.labelDinnerCarbs.Name = "labelDinnerCarbs";
             this.labelDinnerCarbs.Size = new System.Drawing.Size(44, 15);
             this.labelDinnerCarbs.TabIndex = 52;
@@ -756,7 +760,7 @@
             // labelCaloriesBurned
             // 
             this.labelCaloriesBurned.AutoSize = true;
-            this.labelCaloriesBurned.Location = new System.Drawing.Point(115, 687);
+            this.labelCaloriesBurned.Location = new System.Drawing.Point(115, 795);
             this.labelCaloriesBurned.Name = "labelCaloriesBurned";
             this.labelCaloriesBurned.Size = new System.Drawing.Size(44, 15);
             this.labelCaloriesBurned.TabIndex = 53;
@@ -765,7 +769,7 @@
             // labelBalance
             // 
             this.labelBalance.AutoSize = true;
-            this.labelBalance.Location = new System.Drawing.Point(115, 783);
+            this.labelBalance.Location = new System.Drawing.Point(115, 975);
             this.labelBalance.Name = "labelBalance";
             this.labelBalance.Size = new System.Drawing.Size(44, 15);
             this.labelBalance.TabIndex = 54;
@@ -774,7 +778,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(12, 155);
+            this.label28.Location = new System.Drawing.Point(15, 155);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(46, 15);
             this.label28.TabIndex = 55;
@@ -792,7 +796,7 @@
             // labelBrunchCalories
             // 
             this.labelBrunchCalories.AutoSize = true;
-            this.labelBrunchCalories.Location = new System.Drawing.Point(115, 274);
+            this.labelBrunchCalories.Location = new System.Drawing.Point(115, 295);
             this.labelBrunchCalories.Name = "labelBrunchCalories";
             this.labelBrunchCalories.Size = new System.Drawing.Size(44, 15);
             this.labelBrunchCalories.TabIndex = 58;
@@ -801,7 +805,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(12, 274);
+            this.label30.Location = new System.Drawing.Point(15, 295);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(46, 15);
             this.label30.TabIndex = 57;
@@ -810,7 +814,7 @@
             // labelLunchCalories
             // 
             this.labelLunchCalories.AutoSize = true;
-            this.labelLunchCalories.Location = new System.Drawing.Point(115, 388);
+            this.labelLunchCalories.Location = new System.Drawing.Point(115, 435);
             this.labelLunchCalories.Name = "labelLunchCalories";
             this.labelLunchCalories.Size = new System.Drawing.Size(44, 15);
             this.labelLunchCalories.TabIndex = 60;
@@ -819,7 +823,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(14, 388);
+            this.label32.Location = new System.Drawing.Point(15, 435);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(46, 15);
             this.label32.TabIndex = 59;
@@ -828,7 +832,7 @@
             // labelAfternoonTeaCalories
             // 
             this.labelAfternoonTeaCalories.AutoSize = true;
-            this.labelAfternoonTeaCalories.Location = new System.Drawing.Point(114, 505);
+            this.labelAfternoonTeaCalories.Location = new System.Drawing.Point(115, 575);
             this.labelAfternoonTeaCalories.Name = "labelAfternoonTeaCalories";
             this.labelAfternoonTeaCalories.Size = new System.Drawing.Size(44, 15);
             this.labelAfternoonTeaCalories.TabIndex = 62;
@@ -837,7 +841,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(16, 505);
+            this.label34.Location = new System.Drawing.Point(15, 575);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(46, 15);
             this.label34.TabIndex = 61;
@@ -846,7 +850,7 @@
             // labelDinnerCalories
             // 
             this.labelDinnerCalories.AutoSize = true;
-            this.labelDinnerCalories.Location = new System.Drawing.Point(114, 633);
+            this.labelDinnerCalories.Location = new System.Drawing.Point(115, 715);
             this.labelDinnerCalories.Name = "labelDinnerCalories";
             this.labelDinnerCalories.Size = new System.Drawing.Size(44, 15);
             this.labelDinnerCalories.TabIndex = 64;
@@ -855,17 +859,57 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(17, 633);
+            this.label36.Location = new System.Drawing.Point(15, 715);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(46, 15);
             this.label36.TabIndex = 63;
             this.label36.Text = "Kalorie:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 935);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 15);
+            this.label1.TabIndex = 65;
+            this.label1.Text = "Spożyte:";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(15, 955);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(52, 15);
+            this.label27.TabIndex = 66;
+            this.label27.Text = "Spalone:";
+            // 
+            // labelTotalEaten
+            // 
+            this.labelTotalEaten.AutoSize = true;
+            this.labelTotalEaten.Location = new System.Drawing.Point(115, 935);
+            this.labelTotalEaten.Name = "labelTotalEaten";
+            this.labelTotalEaten.Size = new System.Drawing.Size(44, 15);
+            this.labelTotalEaten.TabIndex = 67;
+            this.labelTotalEaten.Text = "label29";
+            // 
+            // labelBurnedTotal
+            // 
+            this.labelBurnedTotal.AutoSize = true;
+            this.labelBurnedTotal.Location = new System.Drawing.Point(115, 955);
+            this.labelBurnedTotal.Name = "labelBurnedTotal";
+            this.labelBurnedTotal.Size = new System.Drawing.Size(44, 15);
+            this.labelBurnedTotal.TabIndex = 68;
+            this.labelBurnedTotal.Text = "label31";
+            // 
             // DayView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(672, 820);
+            this.ClientSize = new System.Drawing.Size(672, 1024);
+            this.Controls.Add(this.labelBurnedTotal);
+            this.Controls.Add(this.labelTotalEaten);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelDinnerCalories);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.labelAfternoonTeaCalories);
@@ -1025,5 +1069,9 @@
         private Label label34;
         private Label labelDinnerCalories;
         private Label label36;
+        private Label label1;
+        private Label label27;
+        private Label labelTotalEaten;
+        private Label labelBurnedTotal;
     }
 }

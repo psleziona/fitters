@@ -62,6 +62,5 @@ C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitte
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucStatistics.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.UserControls.ucUserPanel.resources
 C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\obj\Debug\net6.0-windows\Fitters.AddUserActivity.resources
-C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.dll
-C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.WinForms.dll
-C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\Paweł Śleziona\Desktop\Nowy folder (5)\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll

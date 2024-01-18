@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -42,6 +45,7 @@
             this.panel44 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
             this.panel43 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button7 = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -52,6 +56,8 @@
             this.labelBurnedCalories = new System.Windows.Forms.Label();
             this.labelEnergyNeed = new System.Windows.Forms.Label();
             this.labelBilans = new System.Windows.Forms.Label();
+            this.panel43.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // label32
@@ -170,10 +176,27 @@
             // 
             // panel43
             // 
+            this.panel43.Controls.Add(this.chart1);
             this.panel43.Location = new System.Drawing.Point(11, 42);
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(485, 235);
             this.panel43.TabIndex = 20;
+            // 
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(11, 3);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(438, 212);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
             // 
             // button7
             // 
@@ -292,6 +315,8 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "ucStatistics";
             this.Size = new System.Drawing.Size(1335, 846);
+            this.panel43.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -323,5 +348,6 @@
         private Label labelBurnedCalories;
         private Label labelEnergyNeed;
         private Label labelBilans;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }

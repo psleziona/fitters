@@ -40,10 +40,10 @@ namespace Fitters
                 {
                     dataGridView1.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
-                labelBreakfastProteins.Text = day.Meals.Breakfast.GetMealProteins().ToString();
-                labelBreakfastFats.Text = day.Meals.Breakfast.GetMealFats().ToString();
-                labelBreakfastCarbs.Text = day.Meals.Breakfast.GetMealCarbons().ToString();
-                labelBreakfastCalories.Text = day.Meals.Breakfast.GetCalories().ToString();
+                labelBreakfastProteins.Text = day.Meals.Breakfast.GetMealProteins().ToString() + " gram";
+                labelBreakfastFats.Text = day.Meals.Breakfast.GetMealFats().ToString() + " gram";
+                labelBreakfastCarbs.Text = day.Meals.Breakfast.GetMealCarbons().ToString() + " gram";
+                labelBreakfastCalories.Text = day.Meals.Breakfast.GetCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -58,10 +58,10 @@ namespace Fitters
                 {
                     dataGridView2.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
-                labelBrunchProteins.Text = day.Meals.Brunch.GetMealProteins().ToString();
-                labelBrunchFats.Text = day.Meals.Brunch.GetMealFats().ToString();
-                labelBrunchCarbs.Text = day.Meals.Brunch.GetMealCarbons().ToString();
-                labelBrunchCalories.Text = day.Meals.Brunch.GetCalories().ToString();
+                labelBrunchProteins.Text = day.Meals.Brunch.GetMealProteins().ToString() + " gram";
+                labelBrunchFats.Text = day.Meals.Brunch.GetMealFats().ToString() + " gram";
+                labelBrunchCarbs.Text = day.Meals.Brunch.GetMealCarbons().ToString() + " gram";
+                labelBrunchCalories.Text = day.Meals.Brunch.GetCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -76,10 +76,10 @@ namespace Fitters
                 {
                     dataGridView3.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
-                labelLunchProteins.Text = day.Meals.Lunch.GetMealProteins().ToString();
-                labelLunchFats.Text = day.Meals.Lunch.GetMealFats().ToString();
-                labelLunchCarbs.Text = day.Meals.Lunch.GetMealCarbons().ToString();
-                labelLunchCalories.Text = day.Meals.Lunch.GetCalories().ToString();
+                labelLunchProteins.Text = day.Meals.Lunch.GetMealProteins().ToString() + " gram";
+                labelLunchFats.Text = day.Meals.Lunch.GetMealFats().ToString() + " gram";
+                labelLunchCarbs.Text = day.Meals.Lunch.GetMealCarbons().ToString() + " gram";
+                labelLunchCalories.Text = day.Meals.Lunch.GetCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -94,10 +94,10 @@ namespace Fitters
                 {
                     dataGridView4.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
-                labelAfternoonTeaProteins.Text = day.Meals.AfternoonTea.GetMealProteins().ToString();
-                labelAfternoonTeaFats.Text = day.Meals.AfternoonTea.GetMealFats().ToString();
-                labelAfternoonTeaCarbs.Text = day.Meals.AfternoonTea.GetMealCarbons().ToString();
-                labelAfternoonTeaCalories.Text = day.Meals.AfternoonTea.GetCalories().ToString();
+                labelAfternoonTeaProteins.Text = day.Meals.AfternoonTea.GetMealProteins().ToString() + " gram";
+                labelAfternoonTeaFats.Text = day.Meals.AfternoonTea.GetMealFats().ToString() + " gram";
+                labelAfternoonTeaCarbs.Text = day.Meals.AfternoonTea.GetMealCarbons().ToString() + " gram";
+                labelAfternoonTeaCalories.Text = day.Meals.AfternoonTea.GetCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -112,10 +112,10 @@ namespace Fitters
                 {
                     dataGridView5.Rows.Add(p.Product.Name, p.Quantity, p.GetCalories());
                 }
-                labelDinnerProteins.Text = day.Meals.Dinner.GetMealProteins().ToString();
-                labelDinnerFats.Text = day.Meals.Dinner.GetMealFats().ToString();
-                labelDinnerCarbs.Text = day.Meals.Dinner.GetMealCarbons().ToString();
-                labelDinnerCalories.Text = day.Meals.Dinner.GetCalories().ToString();
+                labelDinnerProteins.Text = day.Meals.Dinner.GetMealProteins().ToString() + " gram";
+                labelDinnerFats.Text = day.Meals.Dinner.GetMealFats().ToString() + " gram";
+                labelDinnerCarbs.Text = day.Meals.Dinner.GetMealCarbons().ToString() + " gram";
+                labelDinnerCalories.Text = day.Meals.Dinner.GetCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -130,7 +130,7 @@ namespace Fitters
                 {
                     dataGridView6.Rows.Add(a.GetActivityName(), a.TimeSpent, a.BurnedCalories);
                 }
-                labelCaloriesBurned.Text = day.GetBurnedCalories().ToString();
+                labelCaloriesBurned.Text = day.GetBurnedCalories().ToString() + " kcal";
                 updateInformation.Invoke();
                 UpdateBalance();
             }
@@ -138,7 +138,9 @@ namespace Fitters
 
         private void UpdateBalance()
         {
-            labelBalance.Text = day.GetDayCaloriesBalance().ToString();
+            labelBalance.Text = day.GetDayCaloriesBalance().ToString() + " kcal";
+            labelTotalEaten.Text = day.GetEatenCalories().ToString() + " kcal";
+            labelBurnedTotal.Text = day.GetBurnedCalories().ToString() + " kcal";
         }
 
         private void buttonAddBreakfast_Click(object sender, EventArgs e)

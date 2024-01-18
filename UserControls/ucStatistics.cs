@@ -26,7 +26,8 @@ namespace Fitters.UserControls
             InitializeComponent();
             DateTime start = dateTimePicker1.Value.Date;
             DateTime end = dateTimePicker2.Value.Date;
-            GenerateStatictics(start, end);      
+            GenerateStatictics(start, end);
+            x();
         }
 
         private void GenerateStatictics(DateTime start, DateTime end)
@@ -61,11 +62,21 @@ namespace Fitters.UserControls
 
         private void x ()
         {
-            Series series = new Series("dd");
+            Series series = new Series("Sample Pie Chart");
             series.ChartType = SeriesChartType.Pie;
-            series.Points.Add(new DataPoint(1, 2));
-            series.Points.Add(new DataPoint(4,5));
 
+            // Dodaj dane do serii
+            series.Points.Add(new DataPoint(1, 30) { LegendText = "Category 1" });
+            series.Points.Add(new DataPoint(2, 50) { LegendText = "Category 2" });
+            series.Points.Add(new DataPoint(3, 20) { LegendText = "Category 3" });
+
+            // Dodaj serię do wykresu
+            chart1.Series.Clear();
+            chart1.Series.Add(series);
+
+
+            // Dodaj legendę
+            chart1.Legends.Add(new Legend("MyLegend"));
         }
     }
 }
